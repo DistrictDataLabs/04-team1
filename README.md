@@ -1,7 +1,13 @@
 # 04-team1
 Repository for Incubator 4 Team 1
 
+##Data Source
+The source of the data set a corpus of news and blog posts ingested using Baleen (http://bit.ly/1UvS6ee) from the period March 3, 2016, ongoing. Currently the data set contains 52k+ articles in HTML format for a size of approximately 3.6 GB. The corpus is growing at a rate of several thousand posts per day.
+
+This data set was provided to the team as a mongo dump by Benjamin Bengfort.  We loaded the mongo dump into a local MongoDB data store.  The MongoDB data store contains three tables (these are referred to as collections in MongoDB).  The collection of interest is called "posts", which is the table that contains the urls as well as the content of the news and blog posts
+
 ## Document Retrieval
+We decided to use the Python package called "newspaper" to convert the html documents into text files so that they can be used to form a corpus that will be used for natural language processing.  The input for newspaper is a url, which it uses to go the specific web page, download the html document, and parse the document into a readable text file.  Therefore, the field of interest from the posts collection in the MongoDB database is the "url" field.  We used mongoexport to download a sample of urls into a file that are subsequently used as inputs to the newspaper package.
 
 xxx.
 
