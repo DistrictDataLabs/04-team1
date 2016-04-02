@@ -26,3 +26,4 @@ In the next few days, we will do similar computations on sentences and create tr
 Interactive data visualization tool to gather information from news stories
 
 ![Alt text](http://dclure.org/wp-content/uploads/2014/12/timeline.jpg "Target Visualization")
+![Alt text]("http://dclure.org/wp-content/uploads/2014/12/compatible2.jpg")
