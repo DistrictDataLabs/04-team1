@@ -1,0 +1,69 @@
+When I first tried to raise money  in 1998 for a company called 360merch  a handful of plucky angel investors agreed to trust me with one million of their dollars. I wore my fingers to the bone in that business, hawking lenticular stickers and logod baby doll t-shirts using affinity marketing models  and then promptly lost them all of their money when the market crashed.
+
+The next time I tried, for BzzAgent, nearly 200 investors told us to go screw. Most thought using real people to generate word of mouth about products and services was a generally dumb idea (this was a pre-social network world, after all) so we had to build the company to nearly $3 million in revenue before anyone would give us a dime. We went on to raise $14M from General Catalyst and Flybridge Partners  and returned $60M to investors in 11 years.
+
+My next attempt was with Smarterer, and I now had the perception of success on my side plus a deeper network of contacts to pull from. It took us about 160 days to raise $1.2M from Google Ventures, True Ventures, and Boston Seed. In 3 different rounds, we raised a total of $4M. Turns out that was a pretty solid bet, and we returned $75M to investors in just under 4 years.
+
+We recently raised funding for a new startup, Mylestoned. The $1.5M raise was incredibly swift and awfully quiet  56 days from start to finish, with our bank account in the black for about 40 days.
+
+Venture fundraising is a funny thing. Its a sophisticated game with teams and rules and failures and victories; theres a lot of skill, sure, but much more luck. All sorts of things can impact a raise: the idea, the team, market conditions, fund dynamics, competing raises. Hell, even the damn weather has an effect.
+
+Each fundraise is like creating a painting: experience doesnt make it any easier, but youre certainly better at knowing the aesthetic, the weight of the brush and how much color to use. And  as evidenced by Mylestoneds current raise  understanding which paint to lay down and when certainly makes the art at the end nicer to look at.
+
+So how did we make this painting? Heres what we did, with some lessons along the way:
+
+1. Be Loyal
+
+Istarted this raise by going directly to angels who had backed me before. Shikhar Ghosh and Guli Arshad have backed almost all of my companies, even the ones they didnt like! I went to them first. Theyre loyal to me, Im loyal to them (Mylestoned they liked, for what its worth).
+
+Next I went to Mark Gerson and Scott Kurnit, NYC residents who are accomplished entrepreneurs of ridiculous caliber. Generous with their time and advice and friendship. Invaluable in Smarterers success; and loyalty comes first. With their commitments, I now had momentum with others.
+
+2. Dont Be Desperate
+
+Id made a number of angel investors 15x their money, and reached out to the best of them next. Youd figure theyd be easy to land, but a few of them didnt bite to invest in this company. Why? Could be theyre over-invested elsewhere or their model of investing is changing or their kid had the flu when I asked.
+
+Or the damn weather again.
+
+It doesnt really matter, but what does matter is I didnt push beyond the first request. If immediate interest wasnt apparent, I just moved on because you cant look desperate. Desperation smells like body odor, and other investors can smell it like horses can smell fear.
+
+3. Get a Big Chunk Early
+
+After a few solid angel commitments, it was time for a big whack of support. I find it much easier to get your first institutional capital with a few good angels in hand. But after a few angels, other angels become harder to close without something more substantial. So time for the big guns.
+
+The lowest hanging fruit was Boston Seed Capital  they backed Smarterer, and I happen to now be a Venture Partner there. Plus, theyre awesome (full disclosure: me saying theyre awesome is akin to me saying Im awesome, which is only really awesome to them and me). As the first institution they played an even more critical role in validating the terms of the raise, and agreeing to lead. The first angels can show their support but cant really define the raise for others to join. Boston Seed committed, we have a lead, now were rolling.
+
+4. Be Local
+
+Icant emphasize enough the importance of raising on your own soil. Its where you will spend 20 hours a day building over the next few years and your investors will become your advocates, recruiters, connectors, future fundraisers  but mainly the blankie you cuddle in your darkest hours. Jeff Glass, Jere Doyle, George Bell, Joe Caruso and Larry Silverstein are all exceptional Boston-based investors. They got priority over investors in other cities because I know they deliver, but also because you have to own your home court.
+
+Deborah Quazzo is based in Chicago. But, well, shes Deborah Quazzo and shes brilliant and unstoppable. Also, see point #1.
+
+5. Have a Firm Plan You Wont Change  and Then Be Flexible
+
+Istarted with a plan to raise $750k in 15 $50k increments. Id focus on seed funds and angels only (no large VCs) with an uncapped note at a whopping 40% discount  double the standard rate. Beyond my rationale that it would drive incredible returns, I fed off of the curiosity about the unique structure and fanned those flames: by getting investors thinking, and by making something original, I opened the door to dialogue. The important part though wasnt so much the terms, but that there was a clear, crisp, unwavering plan.
+
+Screw Im waiting for someone to set the terms, which I hear over and over. Lay out your terms and then qualify them with logic.
+
+On these terms, the $750k was fully committed. We were done, that was that. Then things started to evolve. A few more investors, many in my Gang of Loyals, wanted to come in, so the round opened to $1M.
+
+Then things really started to change. Our raise was all done, it was a pretty little painting. Then David Frankel and Founder Collective showed up. Ive been dying to work with FC for ages. Theyre local. Theyre smart as hell. Davids reputation is outstanding. Their DNA completely fit this company and this round, and I believed their involvement would be valuable for the next round (see point 7). But there was a problem. They didnt like the uncapped note. There are times in a raise when you bend, and this was one of them.
+
+With a commitment to work through and flexibility on all sides we reconfigured the terms and then started calling all of the previously committed investors. A few had already wired money under the previous terms, but with hat in hand  and clearly articulating the rationale for switching  everyone agreed to the new structure. Boston Seed remained flexible as well (they actually upped their investment as the round progressed), Converge and Maia Heymann added a little to the pot, and now we were at $1.5M total.
+
+6. Close The Crap Out of It
+
+This is where many entrepreneurs tend to flail, but it has to be a core strength. Forget always be closing and focus on knowing when to close (Guessing this wont catch on because Im not Alec Baldwin, there are no steak knives and KWTC is not nearly as cute as ABC).
+
+Nothing good can happen between commitment and signing, so you need to move fast. I set a date two weeks out, and emailed every investor clear instructions regarding what they had to do to confirm their spot. I ensured there was pressure: Without commitment, others would take the spot (True. Never ever lie in a raise); of fearing theyd be the only investor holding up the close. Then I pushed my legal team to update the funding documents and pushed everything to 5th-grader-simple online signature via docusign. If anyone didnt seem responsive within 12 hours, I called them. Damn it people, use the phone to close!
+
+7. Plant the Seeds for the Next Raise
+
+All throughout the fundraising process I met with a number of non-seed Venture Capitalists  who would never, ever fund the business at this stage. The truth is most raises happen long before you start raising, and this was a key moment to start building relationships. Also, VCs  for the most part  are really smart and are a wealth of information and experience. Consider this free advice from palm readers with lots of money.
+
+If any of the meetings started to feel like pitches (Im going to have a few other folks join us, or do you want to send over the deck in advance), I backed out. This wasnt a time to pitch, we were too raw and it would only end up as a not right now. I actually mistakenly ended up in one meeting that turned into a pitch, and the VC called me later to tell me they wouldnt invest. But I wasnt asking for an investment! The dreaded no without even asking for a yes.
+
+All in all, Im super proud of this raise, but not because we got it closed. Im proud because its my damn job. Fundraising isnt a one-dimensional equation, and during the whole raise, I was also in the fat, sweaty swing of building the vision and recruiting the Mylestoned team. People were quitting their jobs, they were changing their livelihoods  and theres no way in hell I wasnt going to succeed for them. An entrepreneurs job is to capitalize the business, and you cant delegate that to anyone else.
+
+So now we have 1.5 million dollars to turn our vision into some form of a reality. That equates to exactly 78 weeks. Every week counts. And you can sure as shit bet that I know exactly which of those weeks Ill fire up the fundraising engines again.
+
+This article originally appeared on Medium and has been published here with the author's permission.

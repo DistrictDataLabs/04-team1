@@ -1,0 +1,33 @@
+CUPERTINO, Calif. (AP)  As it struggles to match the success of its big-screen iPhones, Apple is now contending that small can be beautiful, too.
+
+The giant tech company showed off downsized versions of its signature iPhone and iPad Pro tablet on Monday, hoping they'll appeal to first-time buyers and those who have shied away from the bigger-screen models Apple has sold in recent years.
+
+At a time when overall smartphone sales are slowing, Apple touted its new four-inch iPhone SE as the "most affordable" new phone the company has offered. While it comes with an upgraded camera, faster processor and other features, the SE has a starting price of $400, or $50 less than the older iPhone 5S that it's replacing. By contrast, the iPhone 6S Plus, which had been Apple's newest and biggest phone, starts at $750.
+
+The company also knocked $50 off the price of its Apple Watch, showed off some new bands for the wearable gadget, and announced some software enhancements for its mobile devices and the Apple TV system.
+
+Apple's spring product event came one day before the tech giant is set to square off with authorities in federal court over the FBI's demand for help unlocking a mass shooter's encrypted iPhone. The dispute has dominated headlines in recent weeks, as Apple CEO Tim Cook acknowledged in brief remarks at the opening of Monday's event.
+
+"We did not expect to be in this position, at odds with our own government," he said. "But we believe strongly that we have a responsibility to help you protect your data and your privacy."
+
+Few of Monday's announcements surprised industry experts. Analysts say Apple clearly hopes the new devices will broaden its appeal and get more people to use the latest versions of its lucrative online services  such as Apple Pay, Apple Music and the mobile App Store  at a time when overall sales of Apple's sleek iDevices are leveling off.
+
+"We're at a point, in a mature market, where it's about having niche products that satisfy different needs," said veteran tech industry watcher Bob O'Donnell of Technalysis Research.
+
+Apple is packing some new features into these smaller packages. The new SE, for example, has the same four-inch screen as the iPhone 5S that Apple began selling in 2013. But the new phone has the company's latest A9 processor, a 12-megapixel camera and a secure chip that allows the use of Apple Pay, the company's digital payment service. Apple Pay was previously only available with iPhone 6 and 6S models.
+
+Apple hopes the phone will appeal to first time buyers as well as those who find larger models cumbersome, said Apple executive Greg Joswiak. He said the company sold 30 million 4-inch iPhones last year.
+
+But most analysts expect the new phone to sell modestly compared to the company's other models. And while they may give Apple a boost during the historically slow spring and summer months, analysts say the new devices may not be new or different enough to command the excitement Apple's other recent releases have enjoyed.
+
+"It's not going to be a big blockbuster," said O'Donnell.
+
+Several financial analysts had projected Apple could sell about 15 million of the new model this year, although most were expecting it to have a higher starting price. By comparison, analysts estimate Apple has sold 265 million of the larger iPhone 6 models over the last two years.
+
+While shoppers bought a record 74.8 million iPhones in the final three months of 2015, Apple has signaled demand in the current three-month period will fall short of the 61 million iPhones sold in the January-March quarter last year. Overall smartphone sales are slowing around the world, as most people already own one.
+
+Apple also showed off a new version of its iPad Pro, with a 9.7-inch screen and many of the features Apple offered with the 12-inch iPad Pro tablet that Apple introduced last year  including the ability to work with a detachable keyboard and stylus. The smaller screen Pro has a starting price of $600 without cellular capability, while the bigger Pro starts at $800.
+
+While sales of Apple's iPad have been declining for several years, its rival Microsoft has successfully launched a new line of Surface Pro tablets that come with a detachable keyboard. Apple marketing chief Phil Schiller argued Monday that the iPad Pro is the "ultimate replacement" for computers running Microsoft Windows.
+
+Apple is also promoting new uses for its devices, particularly in health care. On Monday, for instance, the company announced CareKit, a set of tools for developers who create mobile apps for medical use. Such apps could help patients monitor chronic conditions such Parkinson's disease and share that data with their doctors. Last year, Apple released ResearchKit, similar tools for apps that collect data for health research.
