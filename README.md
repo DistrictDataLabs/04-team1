@@ -9,7 +9,6 @@ This data set was provided to the team as a mongo dump by Benjamin Bengfort.  We
 ## Document Retrieval
 We decided to use the Python package called "newspaper" to convert the html documents into text files so that they can be used to form a corpus that will be used for natural language processing.  The input for newspaper is a url, which it uses to go the specific web page, download the html document, and parse the document into a readable text file.  Therefore, the field of interest from the posts collection in the MongoDB database is the "url" field.  We used mongoexport to download a sample of urls into a file that are subsequently used as inputs to the newspaper package.
 
-xxx.
 
 ## MVP
 
@@ -21,7 +20,7 @@ Separately, we also tagged the words in the documents to identify part of speech
 
 In the next few days, we will do similar computations on sentences and create trees. Additionally, we hope to investigate bigrams (n-grams), which may aid in finding entities. Finally, we could potentially look into word length distribution for lexical complexity.
 
-##Final Product
+## Final Product
 
 Interactive data visualization tool to gather information from news stories
 
