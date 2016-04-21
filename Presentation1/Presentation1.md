@@ -48,8 +48,8 @@ https://github.com/DistrictDataLabs/04-team1/blob/master/MVP.ipynb
 
 Lexical Dispersion Plot:
 
-![Democrats:](/Users/lisacombs/Documents/test2.png)
-![Republicans:](/Users/lisacombs/Documents/test.png)
+![Democrats:](rep.png)
+![Republicans:](dem.png)
 
 
 
