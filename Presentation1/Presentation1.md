@@ -6,6 +6,8 @@
 
 10:00AM-11:30AM on April 23 via GoToWebinar
 
+https://attendee.gotowebinar.com/register/8457348157408581635
+
 ***
 
 ## Introduction
