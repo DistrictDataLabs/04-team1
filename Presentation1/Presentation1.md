@@ -17,6 +17,9 @@ Name: Team 1
 Members: Lisa Combs, Olivia Chen, Prema Damodaran, Ryan Krog
 
 ***
+##Summary
+
+Every day, thousands of articles are published online about political candidates by news organizations, journalists, and bloggers. The abundance of political media poses an enormous challenge for candidates for political office and their campaigns. I propose a product, called PoliTrend, that helps campaigns and public officials track media coverage about a candidate and gauge the sentiment of this coverage. The product utilizes a massive ingestion feed called Baleen (a tool in the Python programming language) to capture thousands of articles published daily by professional and amateur writers: e.g. bloggers and news outlets. In itself, the centralization of thousands of news stories would be useful for campaigns, but PoliTrend provides further information about the sentiment of each article: does a news story present a candidate in a more positive or negative light? The central feature of the product is that it presents a visualization of trends (hence “trend” in the name) in the sentiment of political coverage over time. Media matters: how the media portrays a candidate can have important implications for that candidate’s ability to raise funds and his/her electoral prospects. Even small shifts in sentiment can swing an election. PoliTrend provides critical insights that campaigns can use to adjust their messaging strategies. The target audiences for this product are media outlets, interest groups and Political Action Committees (PACs), and the campaigns themselves.
 
 ## Goals
 
