@@ -56,6 +56,8 @@ Lexical Dispersion Plot:
 ![Democrats:](dem.png)
 ![Republicans:](rep.png)
 
+D3 Plot:
+![Sentence_Sentiment](D3.png)
 
 
 ***
