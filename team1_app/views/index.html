@@ -7,26 +7,44 @@
 	<!-- Set the page to the width of the device and set the zoon level -->
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
 	<title>Team 1 District Datalabs Project</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<style type="text/css">
+/*	body  */
+/*	{*/
+/*/*		background-image: url("th-4.jpeg");*/
+/*		background-color: #ccf5ff;*/
+/*	}*/
+/*	.jumbotron */
+/*	{*/
+/*		height: 350px;*/
+/*		color: white;*/
+/*		text-shadow: #444 0 1px 1px;*/
+/*		background:transparent;*/
+/*	}*/
+/*	.bg-success */
+/*	{*/
+/*		background-color: #ccffcc;*/
+/*		background-color:  #339966;*/
+/*		color: white;*/
+/*		text-shadow: #444 0 1px 1px;*/
+/*	}*/
+/*	.feature {*/
+/*		background-color:  #339966;*/
+/*		color: greenyellow;*/
+/*	}*/
+	</style>
 </head>
-<nav class="navbar navbar-default" style="margin: 0 auto; background-color: white;">
+<!-- <nav class="navbar navbar-default" style="margin: 0 auto; background-color: white;"> -->
+<!-- <nav class="navbar navbar-default" style="margin: 0 auto;"> -->
+<nav class="navbar" style="margin: 0 auto; background-color: #3366ff" !important>
 	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only" >Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-<!-- 			<a class="navbar-brand" href="#"><img src="/dewlogo.svg" style="height: 40px"></img></a> -->
-		</div>
-
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
-				<li><a href="http://rkrog05.github.io">Trends in Politics</a></li>
-				<li><a href="/about">About Us</a></li>
+			<ul class="nav nav-pills">
+				<li class="active"><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
+				<li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
+				<li><a href="/about" role="presentation">About Us</a></li>
 				 </ul>
 				</li>
 			</ul>
@@ -34,30 +52,17 @@
 	</div><!-- /.container-fluid -->
 </nav>
 <body>
-<div class="jumbotron">
-	<h1 class = "text-center">The Mood of the Media</h1>
-</div>
-
-<!-- <div class="container-fluid"> -->
-<div class="jumbotron">
-	<div class="row">
-		<div class="col-md-12 text-left"><h2>More Resources</h2>
-		</div>
-		 <ul>
-			<div class="col-md-6 text-left" id="dewplatform">
-				<h3><a 
-						href="http://baleen-ingest.readthedocs.org/en/latest/#welcome-to-baleen">Learn about Baleen
-				</h3></a>
-			</div>
-
-			<div class="col-md-6 text-left" id="methodology">
-				<h3><a href="http://www.nltk.org">
-						Learn about Natural Language Processing
-				</h3></a>
-			</div>
-		</div>
+<nav>
+	<div class="nav-wrapper lighten-2" style="background-color:  #339966">
+		<a class="brand-logo">The Mood of the Media</a>
 	</div>
-</div>
+</nav>
+ <div class="row" style="background-image: url(politics.jpeg)">
+ </div>
+<!-- <div class="jumbotron bg-success"> -->
+<!-- 	<h1 class = "text-center">The Mood of the Media</h1> -->
+<!-- </div> -->
+
  </div>
 </div>	
 	<script src="js/bootstrap.min.js"></script>

@@ -16,6 +16,32 @@ app.get("/about", function(request, response)
 	response.sendFile(__dirname + "/views/about.html");
 });
 
+app.get("/sentiment", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/sentiment/sentiment.html");
+});
+
+app.get("/Clinton", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/sentiment/Clinton.html");
+});
+
+app.get("/Cruz", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/sentiment/Cruz.html");
+});
+
+app.get("/Sanders", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/sentiment/Sanders.html");
+});
+
+app.get("/Trump", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/sentiment/Trump.html");
+});
+
+
 // START THE SERVER
 // ==============================================
 app.listen(app.get("port"), function() {
