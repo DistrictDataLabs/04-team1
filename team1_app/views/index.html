@@ -9,34 +9,79 @@
 	<title>Team 1 District Datalabs Project</title>
 <!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-	<style type="text/css">
-/*	body  */
-/*	{*/
-/*/*		background-image: url("th-4.jpeg");*/
-/*		background-color: #ccf5ff;*/
-/*	}*/
-/*	.jumbotron */
-/*	{*/
-/*		height: 350px;*/
-/*		color: white;*/
-/*		text-shadow: #444 0 1px 1px;*/
-/*		background:transparent;*/
-/*	}*/
-/*	.bg-success */
-/*	{*/
-/*		background-color: #ccffcc;*/
-/*		background-color:  #339966;*/
-/*		color: white;*/
-/*		text-shadow: #444 0 1px 1px;*/
-/*	}*/
-/*	.feature {*/
-/*		background-color:  #339966;*/
-/*		color: greenyellow;*/
-/*	}*/
+<!-- 	<style type="text/css"> -->
+<!-- /*	body  */ -->
+<!-- /*	{*/ -->
+<!-- /*/*		background-image: url("th-4.jpeg");*/ -->
+<!-- /*		background-color: #ccf5ff;*/ -->
+<!-- /*	}*/ -->
+<!-- /*	.jumbotron */ -->
+<!-- /*	{*/ -->
+<!-- /*		height: 350px;*/ -->
+<!-- /*		color: white;*/ -->
+<!-- /*		text-shadow: #444 0 1px 1px;*/ -->
+<!-- /*		background:transparent;*/ -->
+<!-- /*	}*/ -->
+<!-- /*	.bg-success */ -->
+<!-- /*	{*/ -->
+<!-- /*		background-color: #ccffcc;*/ -->
+<!-- /*		background-color:  #339966;*/ -->
+<!-- /*		color: white;*/ -->
+<!-- /*		text-shadow: #444 0 1px 1px;*/ -->
+<!-- /*	}*/ -->
+<!-- /*	.feature {*/ -->
+<!-- /*		background-color:  #339966;*/ -->
+<!-- /*		color: greenyellow;*/ -->
+<!-- /*	}*/ -->
+	<style>
+	    body { font-family: Georgia, sans-serif; 
+/*			   font-family: Helvetica, Arial, sans-serif; */
+			 }
+	    .container {
+	        width: 90%;
+	        margin: 20px auto;
+	        background-color: #FFF;
+	        padding: 20px;
+	    }
+
+			pre, code {
+				font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+				font-size: 12px;
+				color: #333;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+			}
+	    pre { border: 1px solid #CCC; background-color: #EEE; color: #333; padding: 10px; overflow: scroll; }
+			code { padding: 2px 4px; background-color: #F7F7F9; border: 1px solid #E1E1E8; color: #D14; }
+/*			.header { height: 300px; color: #FFF; }*/
+/*			.header div {*/
+/*				position: absolute;*/
+/*				bottom: 0;*/
+/*				width: 100%;*/
+/*				background: #000;*/
+/*				background: rgba(0,0,0,0.7);*/
+/*			}*/
+/*			.header h1*/
+/*			{*/
+/*				vertical-align:middle;*/
+/*				text-align:center;*/
+/*			}*/
+			.other { height: 300px; color: #FFF; }
+			.other div {
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				background: #000;
+				background: rgba(0,0,0,0.7);
+			}
+			.other div p { padding: 10px; }
 	</style>
 </head>
 <!-- <nav class="navbar navbar-default" style="margin: 0 auto; background-color: white;"> -->
 <!-- <nav class="navbar navbar-default" style="margin: 0 auto;"> -->
+
+<!-- <div class="header"><h1>The Mood of the Media</h1></div> -->
 <nav class="navbar" style="margin: 0 auto; background-color: #3366ff" !important>
 	<div class="container-fluid">
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,6 +89,7 @@
 			<ul class="nav nav-pills">
 				<li class="active"><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
 				<li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
+				<li><a href="/locationMap" role="presentation">Location Map</a></li>
 				<li><a href="/about" role="presentation">About Us</a></li>
 				 </ul>
 				</li>
@@ -52,19 +98,35 @@
 	</div><!-- /.container-fluid -->
 </nav>
 <body>
-<nav>
-	<div class="nav-wrapper lighten-2" style="background-color:  #339966">
-		<a class="brand-logo">The Mood of the Media</a>
-	</div>
-</nav>
- <div class="row" style="background-image: url(politics.jpeg)">
- </div>
+<!-- <nav> -->
+<!-- 	<div class="nav-wrapper lighten-2" style="background-color:  #339966"> -->
+<!-- 		<a class="brand-logo">The Mood of the Media</a> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+<!-- <div class="other"> -->
+<!--   <div><p>The background image on this element was set using Backstretch.</p></div> -->
+<!-- </div> -->
 <!-- <div class="jumbotron bg-success"> -->
 <!-- 	<h1 class = "text-center">The Mood of the Media</h1> -->
 <!-- </div> -->
+<nav>
+	<div class="container-fluid" style="background-color:  #339966">
+		<h1>Text Summarization Though Visualization</h1>
+		<h2>A District Data Labs Project</h2>
+	</div>
+</nav>
 
- </div>
+
 </div>	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.backstretch.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+//	    $.backstretch(["pot-holder.jpg"]);
+//		 $.backstretch(["/images/Visual_of_USA_Flag_stars_and_stripes_FJM88NLModified1.jpg"]);
+//	$(".other").backstretch("/images/Visual_of_USA_Flag_stars_and_stripes_FJM88NLModified1.jpg");
+//	$(".header").backstretch("/images/COLOURlovers.com-TheMoonIsHerThrone.png");
+
+  </script>
 </body>
 

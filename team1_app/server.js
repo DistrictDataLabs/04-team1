@@ -41,6 +41,11 @@ app.get("/Trump", function(request, response)
 	response.sendFile(__dirname + "/views/sentiment/Trump.html");
 });
 
+app.get("/locationMap", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/locationMap/locations.html");
+});
+
 
 // START THE SERVER
 // ==============================================
