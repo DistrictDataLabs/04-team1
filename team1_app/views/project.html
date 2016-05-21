@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Set the page to the width of the device and set the zoon level -->
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<title>The Project</title>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+
+	<style>
+		body { 
+				font-family: Georgia, sans-serif; 
+			 }
+	</style>
+	</head>
+	<nav class="navbar" style="margin: 0 auto; background-color:  #669900" !important>
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav nav-pills centered-pills">
+					<li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
+					<li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
+					<li><a href="/locationMap" role="presentation">Location Map</a></li>
+					<li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li>
+					<li class="active"><a href="/project" role="presentation" >About The Project</a></li>
+					<li><a href="/about" role="presentation" >The Team</a></li>
+					 </ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	
+	<div class="col s6 offset-s2">
+		<h3 style="text-indent: 50px;">
+		Data Source		
+		</h3>
+		<p style="font-size: 20px; text-indent: 50px; margin: 30px">
+		The dataset is a corpus of news and blog posts ingested using Baleen from the period March 3, 2016, ongoing. The latest dump we have received from Ben is from May 14, 2016. Currently, the data set contains 52k+ articles in HTML format for a size of approximately 3.6 GB. The corpus is still growing at a rate of several thousand posts per day. We have converted the HTML files to txt files for NLP in python.
+		</p>
+		<div style="font-size: 20px; text-indent: 50px;">
+		<h3>Key resources:</h3>
+		<ul>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="https://pypi.python.org/pypi/newspaper">Newspaper</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="https://www.mongodb.com">MongoDB</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="https://d3js.org">D3</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="http://leafletjs.com">Leaflet</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="https://plot.ly">Plotly</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="https://www.heroku.com">Heroku</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="https://slack.com">Slack</a>
+			</li>
+			<li style="list-style-position: inside; list-style-type: circle;">
+				<a href="http://getbootstrap.com">Bootstrap</a>
+			</li>
+		</ul>
+		</div>
+		
+	</div>
+	
+	<body>		
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

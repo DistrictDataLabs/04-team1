@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Sentiment Across Categories</title>
+<!-- Example based on http://bl.ocks.org/mbostock/3887118 -->
+<!-- Tooltip example from http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html -->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+<style>
+#pieChart {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:400px;
+	height: 400px;
+}
+
+body {
+
+
+  font: 11px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+</style>
+<body>
+<nav class="navbar" style="margin: 0 auto; background-color:  #669900" !important>
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav nav-pills centered-pills">
+        <li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
+        <li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
+        <li><a href="/locationMap" role="presentation">Location Map</a></li>
+        <li class="active"><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li>
+        <li><a href="/project" role="presentation" >About The Project</a></li>
+        <li><a href="/about" role="presentation" >The Team</a></li>
+         </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>

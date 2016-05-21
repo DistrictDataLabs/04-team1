@@ -17,6 +17,7 @@ library(tm)
 library(gistr)
 
 #Change your working directory to where the story.csv is located
+setwd('/Users/Copper/Git/DistrictDataLabs/04-team1/Topic Model Visualization')
 stories <- read.csv("story.csv")
 names(stories)
 

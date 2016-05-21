@@ -6,6 +6,7 @@ library(foreign)
 library(gistr)
 
 #Load the CSV 
+setwd('/Users/Copper/Git/DistrictDataLabs/04-team1/Combined')
 stories <- textfile("*.txt", full.names = TRUE)
 
 ##Create corpus called "speechCorpus"
@@ -16,14 +17,16 @@ storyCorpus <- corpus(stories)
 summary(storyCorpus, n=5) 
 #Corpus consisting of 239 documents, showing 5 documents
 
+#extract text from a corpus
 texts(storyCorpus)[2] 
 texts(storyCorpus)[5] 
 
+#Keywords in context
 kwic(storyCorpus, "Trump")
 
 ##Measure the readability of the texts
-docvars(storyCorpus, "readability")  <- readability(storyCorpus, "Flesch")
-docvars(storyCorpus, "readabilityGrade")  <- readability(storyCorpus, "Flesch.Kincaid")
+docvars(storyCorpus, "readability")  <- readability(storyCorpus, measure = "Flesch")
+docvars(storyCorpus, "readabilityGrade")  <- readability(storyCorpus, measure = "Flesch.Kincaid")
 #The first variable is titled "readiability" 
 #The second variable is titled "readabilityGrade" 
 #The command itself is "readability()"
@@ -63,6 +66,8 @@ docvars(storyCorpus, "fear") <- nrc_data$fear
 docvars(storyCorpus, "sadness") <- nrc_data$sadness
 docvars(storyCorpus, "anticipation") <- nrc_data$anticipation
 
+tokenInfo <- summary(storyCorpus)
+
 
 barplot(
   sort(colSums(prop.table(nrc_data[, 1:8]))), 
@@ -85,8 +90,7 @@ p3 <- ggplot(tokenInfo, aes(x=sadness)) + geom_histogram(binwidth=3, fill="#99ba
 
 p4 <- ggplot(tokenInfo, aes(x=joy)) + geom_histogram(binwidth=3, fill="#99badd", colour="black") +   theme(panel.background = element_rect(colour = 'black', size = 1, linetype='solid'))  +  labs(x="Sentiment Score",y="Frequency") + expand_limits(x=c(0,50)) + ggtitle("Joy") +  theme(plot.title = element_text(lineheight=.8, face="bold"))
 
-#Function defined below...
-multiplot(p1, p2, p3, p4, cols=2)
+
 
 
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
@@ -126,9 +130,7 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 }
 
 
-
-
-
+multiplot(p1, p2, p3, p4, cols=2)
 
 
 

@@ -45,12 +45,10 @@ app.get("/Trump", function(request, response)
 {
 	response.sendFile(__dirname + "/views/sentiment/Trump.html");
 });
-
 app.get("/locationMap", function(request, response) 
 {
 	response.sendFile(__dirname + "/views/locationMap/locations.html");
 });
-
 app.get("/d3sentiment", function(request, response) 
 {
 	response.sendFile(__dirname + "/views/D3_sentiment/d3_sentiment.html");
