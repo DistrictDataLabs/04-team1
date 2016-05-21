@@ -16,6 +16,11 @@ app.get("/about", function(request, response)
 	response.sendFile(__dirname + "/views/about.html");
 });
 
+app.get("/project", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/project.html");
+});
+
 app.get("/sentiment", function(request, response) 
 {
 	response.sendFile(__dirname + "/views/sentiment/sentiment.html");
@@ -44,7 +49,10 @@ app.get("/locationMap", function(request, response)
 {
 	response.sendFile(__dirname + "/views/locationMap/locations.html");
 });
-
+app.get("/d3sentiment", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/D3_sentiment/d3_sentiment.html");
+});
 
 // START THE SERVER
 // ==============================================
