@@ -1,0 +1,196 @@
+{
+  "name": "RSS Feeds",
+  "children": [
+    {
+     "name": "Books",
+     "children": [
+       {"name": "Bart's Bookshelf"},
+       {"name": "Book Blogging"},
+       {"name": "Book Briefs"},
+       {"name": "Book Room Reviews"},
+       {"name": "Candace's Book Blog"},
+       {"name": "Paul Coelho"},
+       {"name": "Tiny Reads"},
+       {"name": "Granta Magazine"},
+       {"name": "London Review of Books"},
+       {"name": "New York Times - Books"},
+       {"name": "The Los Angeles Review of Books"},
+       {"name": "The Rumpus.net"},
+       {"name": "Whatever"}
+     ]
+    },{
+     "name": "Business",
+     "children": [
+       {"name": "andrewchen"},
+       {"name": "Calculated Risk"},
+       {"name": "Entrepreneur"},
+       {"name": "Feedburner"},
+       {"name": "Freakonomics"},
+       {"name": "HBR.org"},
+       {"name": "Inc.com"},
+       {"name": "NYT Business Day"},
+       {"name": "The Atlantic"},
+       {"name": "The Big Picture"},
+       {"name": "The Business of Fashion"},
+       {"name": "VentureBeat"}
+     ]
+    },{
+     "name": "Cinema",
+     "children": [
+       {"name": "Deadline"},
+       {"name": "Empire News"},
+       {"name": "Film School Rejects"},
+       {"name": "FirstShowing.net"},
+       {"name": "Moviefone.net"},
+       {"name": "News"}
+     ]
+    },{
+      "name": "Cooking",
+     "children": [
+       {"name": "A Couple Cooks"},
+       {"name": "Baking Bites"},
+       {"name": "BitterSweet"},
+       {"name": "Cookie and Kate"},
+       {"name": "David Lebovitz"},
+       {"name": "Delicious Everyday"},
+       {"name": "Dinner A Love Story"},
+       {"name": "Food52"},
+       {"name": "How Sweet It Is"},
+       {"name": "Joy the Baker"},
+       {"name": "Love and the Lemons"},
+       {"name": "Love and Olive Oil"},
+       {"name": "My New Roots"},
+       {"name": "Shutterbean"},
+       {"name": "smitten kitchen"},
+       {"name": "Sprouted Kitchen"},
+       {"name": "The First Mess"},
+       {"name": "The Kichen"}
+     ]
+    },{
+      "name": "Data Science",
+     "children": [
+       {"name": "Data Mining Research"},
+       {"name": "Geeking with Greg"},
+       {"name": "no free lunch"}
+     ]
+    },{
+      "name": "Design",
+     "children": [
+       {"name": "Cool Hunting"},
+       {"name": "NOTCOT"},
+       {"name": "Oh Happy Day!"},
+       {"name": "swissmiss"},
+       {"name": "Trendir"},
+       {"name": "Yanko Design"}
+     ]
+    },{
+      "name": "Design",
+     "children": [
+       {"name": "Cool Hunting"},
+       {"name": "NOTCOT"},
+       {"name": "Oh Happy Day!"},
+       {"name": "swissmiss"},
+       {"name": "Trendir"},
+       {"name": "Yanko Design"}
+     ]
+   },{
+    "name": "Do It Yourself",
+     "children": [
+       {"name": "Adafruit Industries"}
+     ]
+   },{
+     "name": "Essays",
+     "children": [
+       {"name": "The Electric Typewriter"},
+       {"name": "The Essayist"}
+     ]
+   },{
+     "name": "Gaming",
+     "children": [
+       {"name": "GameSpot"},
+       {"name": "Nintendo Life"},
+       {"name": "Touch Arcade"},
+       {"name": "GameInformer.com"}
+     ]
+   },{
+     "name": "News",
+     "children": [
+       {"name": "ABC News"},
+       {"name": "Al Jazeera America"},
+       {"name": "BBC News - Home"},
+       {"name": "BBC News - World"},
+       {"name": "CNN.com - Top Stories"},
+       {"name": "CNN.com - World"},
+       {"name": "Drudge Report"},
+       {"name": "Fox News"},
+       {"name": "Gothamist"},
+       {"name": "Los Angeles Times"},
+       {"name": "MarketWatch.com"},
+       {"name": "NPR"},
+       {"name": "Google News - News"},
+       {"name": "New York Times - Home"},
+       {"name": "New York Times - World"},
+       {"name": "Quartz"},
+       {"name": "Reuters"},
+       {"name": "Salon.com"},
+       {"name": "Slate Articles"},
+       {"name": "The Atlantic"},
+       {"name": "The Guardian"},
+       {"name": "The Huffington Post"},
+       {"name": "The New Yorker"},
+       {"name": "The Times of India"},
+       {"name": "TIME"},
+       {"name": "Google News - Top Stories"},
+       {"name": "The Guardian - US News"},
+       {"name": "USA Today"},
+       {"name": "VICE"},
+       {"name": "Vox"},
+       {"name": "Washington Post"},
+       {"name": "Wall Street Journal"},
+       {"name": "Yahoo News"}
+     ]
+   },{
+    "name": "Politics",
+     "children": [
+       {"name": "Associated Press - Top Political News"},
+       {"name": "CNN.com - Politics"},
+       {"name": "Democracy in America"},
+       {"name": "Fox News"},
+       {"name": "msnbc.com"},
+       {"name": "New York Times - Politics"},
+       {"name": "Political Mojo"},
+       {"name": "Politics"},
+       {"name": "Reuters - Politics"},
+       {"name": "Slate Articles"},
+       {"name": "The Daily Signal"},
+       {"name": "The Nation"},
+       {"name": "Think Progress"},
+       {"name": "USA Today - Politics"},
+       {"name": "World Affairs Journal - Essays"},
+       {"name": "Wall Street Journal - Politics and Policy"}
+     ]
+   }, {
+    "name": "Sports",
+     "children": [
+       {"name": "Artifacting"},
+       {"name": "BBC Sport"},
+       {"name": "Bleacher Report"},
+       {"name": "Deadspin"},
+       {"name": "ESPN.com"},
+       {"name": "NBA.com"},
+       {"name": "NFL.com"},
+       {"name": "Yahoo! News - Sports"},
+       {"name": "Wes The Sports Guy"}
+     ]
+   },{
+    "name": "Tech",
+     "children": [
+       {"name": "Ars Technica"},
+       {"name": "Gigaom"},
+       {"name": "Gizmodo"},
+       {"name": "Schobleizer"},
+       {"name": "Yahoo Tech"}
+     ]
+   }
+  ]
+}

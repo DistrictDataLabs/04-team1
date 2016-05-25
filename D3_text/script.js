@@ -33,7 +33,7 @@ var tooltip = d3.select("body").append("div")
 
 
     // load data
-d3.csv("stories.csv", function(error, data) {
+d3.csv("js/stories.csv", function(error, data) {
       // change string (from CSV) into number format
       data.forEach(function(d) {
         d.Sentiment = +d.Sentiment;
