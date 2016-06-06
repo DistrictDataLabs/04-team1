@@ -21,6 +21,16 @@ app.get("/project", function(request, response)
 	response.sendFile(__dirname + "/views/project.html");
 });
 
+app.get("/freqWords", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/frequent_words.html");
+});
+
+app.get("/baleenFeeds", function(request, response) 
+{
+	response.sendFile(__dirname + "/views/baleen_feeds.html");
+});
+
 app.get("/sentiment", function(request, response) 
 {
 	response.sendFile(__dirname + "/views/sentiment/sentiment.html");

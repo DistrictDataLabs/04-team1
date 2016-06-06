@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Baleen Feeds</title>
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+</style>
+</head>
+<nav class="navbar" style="margin: 0 auto; background-color: #cc9900" !important>
+  <div class="container-fluid">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav nav-pills">
+        <li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
+        <li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
+        <li><a href="/locationMap" role="presentation">Location Map</a></li>
+        <li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li>
+        <li  class="active"><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li>
+        <li><a href="/freqWords" role="presentation" >Frequently Appearing Words</a></li>
+        <li><a href="/project" role="presentation" >About The Project</a></li>
+        <li><a href="/about" role="presentation" >The Team</a></li>
+         </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<body>
+<div id="viz" style="text-align:center;">
+</div>
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+<script src="js/d3.min.js"></script>
+<script>
+
+var radius = 960 / 2;
+
+var cluster = d3.layout.cluster()
+    .size([360, radius - 120]);
+
+var diagonal = d3.svg.diagonal.radial()
+    .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+
+var svg = d3.select("#viz").append("svg")
+    .attr("width", radius * 2)
+    .attr("height", radius * 2)
+  .append("g")
+    .attr("transform", "translate(" + radius + "," + radius + ")");
+
+d3.json("dataset.json", function(error, root) {
+  if (error) throw error;
+
+  var nodes = cluster.nodes(root);
+
+  var link = svg.selectAll("path.link")
+      .data(cluster.links(nodes))
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", diagonal);
+
+  var node = svg.selectAll("g.node")
+      .data(nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+
+  node.append("circle")
+      .attr("r", 4.5);
+
+  node.append("text")
+      .attr("dy", ".31em")
+      .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+      .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
+      .text(function(d) { return d.name; });
+});
+
+d3.select(self.frameElement).style("height", radius * 2 + "px");
+
+</script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
