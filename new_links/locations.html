@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- using leaflet example to start index html -->
+<html>
+<head>
+    <title>Locations Mentioned in the News</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.1/leaflet.css" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+        body { font-family: Georgia, sans-serif;
+          padding: 50px
+  /*			   font-family: Helvetica, Arial, sans-serif; */
+         }
+
+  </style>
+
+</head>
+<style>
+    html,
+    body{
+        height:100%;
+        width:100%;
+        margin:0;
+        padding: 70
+    }
+    #map{
+        height:100%;
+        width:100%;
+    }
+    .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+  .info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+
+</style>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav nav-pills">
+        <li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
+        <li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
+        <li class="active"><a href="/locationMap" role="presentation">Location Map</a></li>
+        <li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li>
+        <li><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li>
+        <li><a href="/freqWords" role="presentation" >Frequently Appearing Words</a></li>
+        <li><a href="/project" role="presentation" >About The Project</a></li>
+        <li><a href="/about" role="presentation" >The Team</a></li>
+         </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<body>
+<!-- a small window shows on the top right corner tells you what's the coordinates of mouse position,
+could be removed, just to test if I can get coordinate while moving the mouse-->
+
+<div id="map" style=""></div>
+
+
+<script src="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.1/leaflet.js"></script>
+<!-- following are the scripts that using to map the basemap, and newslocation -->
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+<script src="js/newsLocation.js"></script>
+
+
+<script>
+    var map = L.map('map').setView([30, -30], 3);
+    L.tileLayer('http://{s}.tiles.mapbox.com/v3/spatialdev.map-c9z2cyef/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+        'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        id: 'mapbox.streets'
+    }).addTo(map);
+
+    function zoomToFeature(e) {
+      map.fitBounds(e.target.getBounds());
+        // console.log(e.target.feature.properties.facility_type)
+        popup
+                .setLatLng(e.latlng)
+                // .setContent(e.target.feature.properties.facility_type)
+                  // .openOn(map);
+    }
+    function onEachFeature(feature, layer) {
+      var popupContent = feature.properties.location ;
+    // does this feature have a property named popupContent?
+        layer.bindPopup(popupContent);
+    }
+
+    geojson = L.geoJson(Newslocations, {
+      onEachFeature: onEachFeature,
+      //  style: style,
+pointToLayer: function(feature, latlon) {
+// L.circleMarker() draws a circle with fixed radius in pixels.
+// To draw a circle overlay with a radius in meters, use L.circle()
+return L.circleMarker(latlon, {radius: feature.properties.count})
+}
+    }).addTo(map)
+</script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>
