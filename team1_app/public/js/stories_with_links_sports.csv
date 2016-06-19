@@ -1,0 +1,88 @@
+,Index,Text,Types,Tokens,Sentences,date,category,link,title,Sentiment,anger,trust,disgust,joy,fear,sadness,anticipation
+text1,1,text1,305,614,7,5/2/2016,sports,http://www.bbc.co.uk/sport/0/football/36126868,Burnley 1-0 Queens Park Rangers,27,8,12,1,6,4,4,13
+text2,2,text2,140,278,1,5/2/2016,sports,http://www.bbc.co.uk/sport/0/golf/36188089,Stuard wins first PGA Tour title,3,3,4,1,1,3,2,1
+text3,3,text3,213,432,1,5/2/2016,sports,http://www.bbc.co.uk/sport/0/cricket/36183914,Root gets golden duck against Notts,-4,3,3,1,0,1,3,1
+text4,4,text4,304,707,8,5/2/2016,sports,http://www.bbc.co.uk/sport/0/cricket/36184043,Cook and Westley make tons at Worcester,15,2,12,1,5,2,4,10
+text5,5,text5,255,464,3,5/2/2016,sports,http://www.bbc.co.uk/sport/0/cricket/36184012,Stokes shows bowling form at the Oval,-2,3,5,1,4,2,4,4
+text6,6,text6,534,1462,6,5/2/2016,sports,http://www.bbc.co.uk/sport/0/football/36126014,Bayern Munich v Atletico Madrid,8,13,10,4,11,10,10,15
+text7,7,text7,256,506,1,5/2/2016,sports,http://www.bbc.co.uk/news/business-36181320#sa-ns_mchannel=rss&ns_source=PublicRSS20-sa,Leicester 'can make 150m from PL title',31,2,13,2,5,1,1,10
+text8,8,text8,372,783,19,5/2/2016,sports,http://www.bbc.co.uk/sport/0/football/36126882,Dundee 2-1 Dundee United,-6,12,16,4,9,13,14,10
+text9,9,text9,139,223,1,5/2/2016,sports,http://www.bbc.co.uk/sport/0/boxing/36188348,Joshua could fight at 'Bird's Nest',8,1,7,1,3,2,1,7
+text10,10,text10,81,113,1,5/2/2016,sports,http://www.bbc.co.uk/sport/0/rugby-union/36188680,Seventh operation 'devastates' Coombs,-2,0,1,0,0,3,2,0
+text11,11,text11,239,462,4,5/2/2016,sports,http://www.bbc.co.uk/sport/0/disability-sport/36186767,Three golds for GB at IPC Euros,43,3,9,2,7,2,2,7
+text12,12,text12,446,1289,11,5/3/2016,sports,http://www.bbc.co.uk/sport/0/snooker/36188181,Selby enjoys 'best night of life',33,6,14,5,14,3,10,15
+text13,13,text13,19,29,3,4/13/2016,sports,https://westhesportsguy.com/2016/04/12/2016-stanley-cup-playoffs-preview/,2016 Stanley Cup Playoffs Preview,3,0,0,0,0,0,0,0
+text14,14,text14,19,29,3,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/2016-mlb-world-series-awards-predictions/,2016 MLB World Series & Awards Predictions,3,0,0,0,0,0,0,0
+text15,15,text15,374,1123,79,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/national-league-east-7/,National League East,4,0,9,1,2,3,1,7
+text16,16,text16,364,1151,81,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/american-league-east-7/,American League East,1,2,7,0,5,4,3,6
+text17,17,text17,369,1127,77,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/national-league-central-7/,National League Central,24,1,9,1,4,2,0,4
+text18,18,text18,369,1176,81,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/american-league-central-7/,American League Central,2,1,7,2,5,3,0,8
+text19,19,text19,375,1143,77,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/national-league-west-7/,National League West,1,5,7,2,4,7,6,8
+text20,20,text20,380,1191,83,4/3/2016,sports,https://westhesportsguy.com/2016/04/03/american-league-west-7/,American League West,5,3,8,2,2,5,4,8
+text21,21,text21,253,473,17,3/17/2016,sports,https://westhesportsguy.com/2016/03/17/childish/,Childish,11,1,11,1,6,3,2,10
+text22,22,text22,231,491,17,3/8/2016,sports,https://westhesportsguy.com/2016/03/08/so-long-no-18/,So Long No. 18,32,2,9,1,8,1,1,15
+text23,23,text23,397,959,26,4/14/2016,sports,https://westhesportsguy.com/2016/04/14/the-black-mamba/,The Black Mamba,30,9,15,4,8,10,4,16
+text24,24,text24,19,29,3,4/16/2016,sports,https://westhesportsguy.com/2016/04/16/2016-nba-playoffs-preview/,2016 NBA Playoffs Preview,3,0,0,0,0,0,0,0
+text25,25,text25,19,29,3,4/28/2016,sports,https://westhesportsguy.com/2016/04/28/stanley-cup-semifinals-preview-2/,Stanley Cup Semifinals Preview,3,0,0,0,0,0,0,0
+text26,26,text26,19,29,3,5/2/2016,sports,https://westhesportsguy.com/2016/05/02/nba-semifinals-preview-6/,NBA Semifinals Preview,3,0,0,0,0,0,0,0
+text27,27,text27,90,146,2,3/16/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/olOp70uP_j4/,2016 SXSW Free Music Torrents & Radio,0,0,1,0,2,0,1,0
+text28,28,text28,118,192,9,3/16/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/0Hoat9_Q9wQ/,"Pinball Is A Game Of Skill, Not Chance",-5,2,3,3,2,3,1,4
+text29,29,text29,26,27,3,3/19/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/H65bHdgGikI/,Test Word Changer JS,2,0,1,0,1,0,0,0
+text30,30,text30,112,178,11,4/1/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/Au3zh0GF9HQ/,Hamburger Helper Wins April Fools,12,2,5,1,5,1,2,4
+text31,31,text31,54,69,4,4/5/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/5P4S31T32YU/,Help Save The Curtis Brothers House,5,0,3,0,2,0,0,1
+text32,32,text32,194,352,12,4/7/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/oTboHPRS7fo/,Five Web Based Analytical Tools That Will Improve your Writing,14,3,8,0,4,1,1,4
+text33,33,text33,110,164,4,4/12/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/yic4I6swjxE/,This Is Your Brain On Drugs,-3,2,5,0,0,3,2,1
+text34,34,text34,642,1640,19,4/13/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/gU0lMg32XvM/,A Poem So Youll Know All Of Scrabbles Two-Letter Words,12,9,25,5,15,17,11,20
+text35,35,text35,46,54,3,4/13/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/cC9v23ppRtE/,Battle Of The Octopus,0,3,1,0,3,6,2,3
+text36,36,text36,189,310,12,4/22/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/21iZhQCN090/,The Legacy Of Prince And Saturday Night Live,13,5,10,2,7,6,4,6
+text37,37,text37,512,1489,8,4/27/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/tghx2A-zaTo/,The Entire Cast For The Twin Peaks Reboot,3,4,12,3,7,4,3,7
+text38,38,text38,49,55,3,4/28/2016,sports,http://feedproxy.google.com/~r/Grantland/~3/kG-hZkd0uFs/,Every Bob Marley Opening Drum Fill,1,1,3,1,2,1,0,1
+text39,39,text39,233,460,12,5/2/2016,sports,http://espn.go.com/mlb/story/_/id/15448949/josh-ravin-los-angeles-dodgers-suspended-80-games-peds,Dodgers P Ravin suspended 80 games for PEDs,-12,4,7,4,2,10,10,7
+text40,40,text40,407,1127,40,5/2/2016,sports,http://espn.go.com/nba/playoffs/2016/story/_/id/15447558/portland-trail-blazers-star-damian-lillard-makes-family-milestone-midst-playoffs,The Undefeated: Damian Lillard played for Pops,40,4,17,2,16,5,5,19
+text41,41,text41,204,459,18,5/2/2016,sports,http://espn.go.com/nba/story/_/id/15449200/indiana-pacers-president-larry-bird-says-coach-frank-vogel-future-uncertain,Pacers president Bird unsure of Vogel&apos;s future,7,4,6,3,2,5,5,5
+text42,42,text42,460,1130,21,5/2/2016,sports,http://espn.go.com/mlb/story/_/id/15449372/pablo-sandoval-boston-red-sox-set-miss-rest-season-shoulder-surgery,Source: Sandoval (shoulder) set to miss rest of &apos;16,-3,9,23,6,9,15,17,20
+text43,43,text43,325,716,17,5/2/2016,sports,http://www.nba.com/2016/news/05/02/la-clippers-offseason-chris-paul-blake-griffin-deandre-jordan.ap/index.html?rss=true,"Clippers' coach Rivers says team won't trade Paul, Griffin or Jordan",23,4,11,0,8,5,5,18
+text44,44,text44,250,504,14,5/2/2016,sports,http://www.nba.com/2016/news/05/02/stephen-curry-injury-update-warriors-ap.ap/index.html?rss=true,Warriors still hopeful to have Curry back for Game 3,11,6,7,0,5,8,4,9
+text45,45,text45,71,95,3,5/2/2016,sports,http://screamer.deadspin.com/lionel-messi-takes-on-giant-inflatable-demon-robot-keep-1774349296,Lionel Messi Takes On Giant Inflatable Demon Robot Keeper,-6,2,4,2,1,4,3,2
+text46,46,text46,14,15,2,5/2/2016,sports,http://deadspin.com/deadspin-up-all-night-i-can-see-the-world-from-here-1774345966,Deadspin Up All Night: I Can See The World From Here,5,0,0,0,0,0,0,0
+text47,47,text47,286,531,21,5/2/2016,sports,http://kotaku.com/my-quest-to-win-nba-mvp-1774228490,My Quest To Win NBA MVP,-2,11,6,8,2,17,10,8
+text48,48,text48,124,193,4,5/2/2016,sports,http://deadspin.com/report-colin-cowherd-and-jason-whitlock-to-host-all-ta-1774332006,Report: Colin Cowherd And Jason Whitlock To HostAll Takes Matter At Fox Sports,-3,2,1,2,0,0,0,1
+text49,49,text49,29,31,2,5/2/2016,sports,http://kinjaroundup.kinja.com/jalopnik-this-is-the-hoverboard-we-ve-all-been-dreaming-1774325718,Jalopnik This Is The Hoverboard Weve All Been Dreaming Of | Lifehacker Build Your Emergency Fund On,0,0,1,0,0,0,0,0
+text50,50,text50,178,307,7,5/2/2016,sports,http://deadspin.com/former-nfl-star-dana-stubblefield-charged-with-raping-a-1774356187,Former NFL Star Dana Stubblefield Charged With Raping A Developmentally Disabled Woman,-21,8,7,2,1,10,7,6
+text51,51,text51,249,440,13,5/2/2016,sports,http://www.nfl.com/news/story/0ap3000000659532/article/jets-gm-keeps-door-open-for-hackenberg-debut-in-16,Jets GM keeps door open for Hackenberg debut in '16,16,3,11,2,7,4,3,10
+text52,52,text52,116,191,7,5/3/2016,sports,http://www.nfl.com/news/story/0ap3000000659579/article/moritz-boehringer-signs-rookie-contract-with-vikings,Moritz Boehringer signs rookie contract with Vikings,10,0,8,2,5,0,1,7
+text53,53,text53,282,611,7,5/2/2016,sports,http://news.yahoo.com/stuard-wins-orleans-playoff-163638439--golf.html,Stuard wins in New Orleans after playoff,22,2,12,1,6,3,4,7
+text54,54,text54,166,313,3,5/2/2016,sports,http://news.yahoo.com/stuard-clinches-maiden-win-playoff-victory-zurich-classic-170020029--golf.html,Stuard clinches maiden win with playoff victory at Zurich Classic,27,3,7,1,6,3,3,6
+text55,55,text55,118,205,2,5/2/2016,sports,http://news.yahoo.com/golf-stuard-wins-orleans-playoff-163249439--golf.html,Golf-Stuard wins in New Orleans after playoff,6,2,6,0,2,2,2,2
+text56,56,text56,22,26,1,5/2/2016,sports,http://news.yahoo.com/golf-fedex-cup-rankings-192236593--golf.html,Golf-FedEx Cup rankings,0,0,0,0,0,0,1,0
+text57,57,text57,171,352,1,5/2/2016,sports,http://news.yahoo.com/lakers-target-lebron-durant-magic-johnson-202738617--nba.html,"Lakers should target LeBron, Durant - Magic Johnson",-4,2,6,0,5,2,3,7
+text58,58,text58,18,18,1,5/2/2016,sports,http://news.yahoo.com/golf-world-rankings-195037328--golf.html,Golf-World Rankings,0,0,0,0,0,0,1,0
+text59,59,text59,95,154,1,5/2/2016,sports,http://news.yahoo.com/australia-host-basketball-without-borders-camp-june-230353416--nba.html,Australia to host Basketball without Borders camp in June,3,0,3,0,1,0,0,2
+text60,60,text60,199,385,6,5/2/2016,sports,http://bleacherreport.com/articles/2637477-nba-rules-demar-derozan-fouled-ian-mahinmi-at-end-of-pacers-vs-raptors,NBA Rules DeMar DeRozan Fouled Ian Mahinmi at End of Pacers vs. Raptors,5,7,6,4,4,6,5,4
+text61,61,text61,262,489,7,5/2/2016,sports,http://bleacherreport.com/articles/2637476-josh-ravin-suspended-80-games-for-peds-latest-details-comments-and-reaction,"Josh Ravin Suspended 80 Games for PEDs: Latest Details, Comments and Reaction",-16,3,9,2,4,7,5,7
+text62,62,text62,281,554,14,5/2/2016,sports,http://bleacherreport.com/articles/2637471-chris-bosh-reportedly-pressuring-heat-to-allow-return-from-blood-clots,Chris Bosh Reportedly Pressuring Heat to Allow Return from Blood Clots,-15,8,10,3,3,13,9,8
+text63,63,text63,173,295,10,5/2/2016,sports,http://bleacherreport.com/articles/2637462-wwe-raw-live-results-reaction-and-analysis-for-may-2,"WWE Raw: Live Results, Reaction and Analysis for May 2",-3,6,5,1,2,5,4,6
+text64,64,text64,132,212,6,5/2/2016,sports,http://bleacherreport.com/articles/2637465-atlanta-hawks-vs-cleveland-cavaliers-live-score-analysis-for-game-1,"Atlanta Hawks vs. Cleveland Cavaliers: Live Score, Analysis for Game 1",10,2,4,0,1,1,3,1
+text65,65,text65,184,340,6,5/2/2016,sports,http://bleacherreport.com/articles/2550977-jason-heyward-injury-updates-on-cubs-stars-wrist-and-return,Jason Heyward Injury: Updates on Cubs Star's Wrist and Return,4,3,6,0,4,2,1,4
+text66,66,text66,405,1023,9,5/2/2016,sports,http://bleacherreport.com/articles/2637338-world-snooker-championship-2016-final-results-prize-money-and-reaction,"World Snooker Championship 2016: Final Results, Prize Money and Reaction",17,8,16,6,13,7,6,17
+text67,67,text67,419,1126,39,5/2/2016,sports,http://bleacherreport.com/articles/2637456-premier-league-table-2016-standings-week-37-fixtures-after-week-36-results,"Premier League Table: 2016 Standings, Week 37 Fixtures After Week 36 Results",3,4,14,4,11,5,11,16
+text68,68,text68,731,1788,41,5/2/2016,sports,http://bleacherreport.com/articles/2637259-top-offseason-priorities-for-the-dallas-mavericks,Top Offseason Priorities for the Dallas Mavericks,24,14,26,5,16,25,13,27
+text69,69,text69,88,127,1,5/2/2016,sports,http://bleacherreport.com/articles/2637413-best-xv-in-world-rugby-for-weekend-of-april-29-may-1,Best XV in World Rugby for Weekend of April 29-May 1,4,0,2,0,1,0,1,1
+text70,70,text70,157,305,5,5/3/2016,sports,http://bleacherreport.com/articles/2637491-enzo-amore-updates-on-wwe-superstars-concussion-and-return,Enzo Amore: Updates on WWE Superstar's Concussion and Return,-3,3,5,1,1,3,4,2
+text71,71,text71,203,383,8,5/3/2016,sports,http://bleacherreport.com/articles/2637487-jaguars-myles-jack-calls-draft-slide-humiliating-after-falling-to-no-36,Jaguars' Myles Jack Calls Draft Slide 'Humiliating' After Falling to No. 36,10,1,11,3,5,2,3,12
+text72,72,text72,205,390,8,5/3/2016,sports,http://bleacherreport.com/articles/2637492-pablo-sandoval-injury-update-red-sox-star-to-undergo-shoulder-surgery,Pablo Sandoval Injury Update: Red Sox Star to Undergo Shoulder Surgery,2,4,12,1,6,9,8,10
+text73,73,text73,205,394,9,5/2/2016,sports,http://bleacherreport.com/articles/2637484-jets-gm-mike-maccagnan-comments-on-christian-hackenberg-jets-qb-situation,"Jets GM Mike Maccagnan Comments on Christian Hackenberg, Jets' QB Situation",16,0,11,0,3,3,1,8
+text74,74,text74,203,381,9,5/2/2016,sports,http://bleacherreport.com/articles/2637480-dana-stubblefield-charged-with-rape-details-comments-and-reaction,"Dana Stubblefield Charged with Rape: Details, Comments and Reaction",-15,13,10,3,5,10,6,7
+text75,75,text75,173,298,8,5/2/2016,sports,http://bleacherreport.com/articles/2637475-devin-mesoraco-injury-updates-on-reds-catchers-shoulder-and-return,Devin Mesoraco Injury: Updates on Reds Catcher's Shoulder and Return,-8,4,4,3,3,6,6,6
+text76,76,text76,117,199,3,5/2/2016,sports,http://bleacherreport.com/articles/2637478-capitals-vs-penguins-game-3-live-score-highlights-for-2016-nhl-playoffs,"Capitals vs. Penguins: Game 3 Live Score, Highlights for 2016 NHL Playoffs",13,1,4,3,1,2,1,3
+text77,77,text77,209,358,7,5/2/2016,sports,http://bleacherreport.com/articles/2636879-chelsea-vs-tottenham-winners-and-losers-from-premier-league,Chelsea vs. Tottenham: Winners and Losers from Premier League,-11,4,4,3,2,5,7,5
+text78,78,text78,477,1022,20,5/2/2016,sports,http://www.theguardian.com/football/blog/2016/may/03/tottenham-hotspur-lose-control-mousa-dembele-gouge,Tottenham lose title hopes and all control in draw with Chelsea,18,16,22,8,13,14,6,18
+text79,79,text79,28,32,1,5/2/2016,sports,http://www.theguardian.com/football/gallery/2016/may/02/leicester-city-players-party-at-jamie-vardys-house-as-the-foxes-win-the-premier-league-in-pictures,Jamie Vardy hosts party as Leicester City triumph  in pictures,-1,1,1,1,1,1,1,2
+text80,80,text80,346,667,17,5/2/2016,sports,http://www.theguardian.com/football/2016/may/02/how-leicester-citys-triumph-compares-with-other-title-winners,How Leicester City's triumph compares with other title winners,22,7,14,2,12,7,8,17
+text81,81,text81,0,0,0,5/2/2016,sports,http://www.theguardian.com/football/2016/may/02/leicester-city-not-buying-marquee-signing-meant-players-felt-trusted,I predicted Leicester City could win a cup. Everybody thought I was insane | Serge Pizzorno,0,0,0,0,0,0,0,0
+text82,82,text82,296,666,18,5/2/2016,sports,http://www.theguardian.com/football/2016/may/02/claudio-ranieri-thanks-guus-hiddink-chelsea,Claudio Ranieri thanks Guus Hiddink and Chelsea in emotional phone call,28,9,8,4,9,10,4,13
+text83,83,text83,232,417,7,5/2/2016,sports,http://www.theguardian.com/football/2016/may/02/bookmakers-record-payout-leicester-city-win-premier-league,Bookmakers face record payouts after Leicester City win Premier League,17,4,7,2,7,3,2,11
+text84,84,text84,54,72,8,5/2/2016,sports,http://www.theguardian.com/football/video/2016/may/02/championes-leicester-city-players-celebrate-premier-league-win-video,'Champions!' Leicester City players celebrate Premier League win video,7,0,3,0,1,1,0,2
+text85,85,text85,398,873,26,5/2/2016,sports,http://www.theguardian.com/football/blog/2016/may/03/chelsea-tottenham-talking-points-leicester-win-title,Chelsea 2-2 Tottenham: five talking points as Leicester win title | James Riach,-3,15,15,8,11,14,16,18
+text86,86,text86,381,932,32,5/2/2016,sports,http://www.theguardian.com/football/2016/may/03/claudio-ranieri-leicester-champions-jamie-vardy,Proud Claudio Ranieri says Leicester players deserve to be champions,63,4,17,2,17,4,4,23
+text87,87,text87,315,684,27,5/2/2016,sports,http://www.theguardian.com/football/2016/may/03/mauricio-pochettino-tottenham-chelsea-fighting-stamford-bridge,Mauricio Pochettino: It was a derby and we were fighting,2,16,11,7,10,11,8,12
