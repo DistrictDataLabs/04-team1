@@ -6,8 +6,10 @@ library(foreign)
 library(gistr)
 
 #Load the CSV 
-setwd('/Users/Copper/Git/DistrictDataLabs/04-team1/Combined')
-stories <- textfile("*.txt", full.names = TRUE)
+#setwd('/Users/Copper/Git/DistrictDataLabs/04-team1/Combined')
+setwd('/Users/Copper/Documents/Prema/Prema_Folder/District_Data_Labs/scripts')
+#stories <- textfile("*.txt", full.names = TRUE)
+stories <- textfile("articles_double_q2_news.json", textField = "text")
 
 ##Create corpus called "speechCorpus"
 storyCorpus <- corpus(stories) 
@@ -67,6 +69,7 @@ docvars(storyCorpus, "sadness") <- nrc_data$sadness
 docvars(storyCorpus, "anticipation") <- nrc_data$anticipation
 
 tokenInfo <- summary(storyCorpus)
+write.csv(tokenInfo, file="stories_with_links_news.csv")
 
 
 barplot(

@@ -17,12 +17,22 @@ var yValue = function(d) { return d.Index;}, // data -> value
 
 
 // setup fill color
-var cValue = function(d) { return d.Category;},
-    color = d3.scale.category10();
+//var cValue = function(d) { return d.category;},
+  var  color = d3.scale.category10(); 
+ // var color = d3.rgb("#ff9900");  // Pass in Hex
+
+//  var color = d3.rgb(12, 67, 199);  // Red, Green, Blue
+ // var color = d3.hsl(0, chart5100, 50);  //  Hue-Saturation-Lightness  (e.g. red)
+ // var color = d3.hcl(-97, 32, 52);  // steelblue
+ // var color = d3.lab(52, -4, -32);  // Lab color space (l, a, b); steelblue
+//  var  color		= d3.scale.ordinal()
+ //    .range(colorbrewer.GnBu[9]);
+    // .range(["#FF0000", "#009933" , "#0000FF"]);
+  //   .range(["#0000FF", "#009933" , "#FF0000"]);
 
 
 // add the graph canvas to the body of the webpage
-var chart3 = d3.select("body").append("svg")
+var chart5 = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -35,7 +45,7 @@ var tooltip = d3.select("body").append("div")
 
 
     // load data
-d3.csv("js/stories.csv", function(error, data) {
+d3.csv("js/stories_with_links_politics.csv", function(error, data) {
       // change string (from CSV) into number format
       data.forEach(function(d) {
         d.Sentiment = +d.Sentiment;
@@ -48,7 +58,7 @@ d3.csv("js/stories.csv", function(error, data) {
       yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
 
       // x-axis
-      chart3.append("g")
+      chart5.append("g")
           .attr("class", "x axis")
           .attr("transform", "translate(0," + height + ")")
           .call(xAxis)
@@ -60,7 +70,7 @@ d3.csv("js/stories.csv", function(error, data) {
           .text("Sentiment Score");
 
       // y-axis
-      chart3.append("g")
+      chart5.append("g")
           .attr("class", "y axis")
           .call(yAxis)
         .append("text")
@@ -72,20 +82,24 @@ d3.csv("js/stories.csv", function(error, data) {
         //  .text("Number of Sentences");
 
       // draw dots
-      chart3.selectAll(".dot")
+      chart5.selectAll(".dot")
           .data(data)
-        .enter().append("circle")
+        .enter()
+        .append("a")
+        .attr("xlink:href", function(d) {return d.link})
+        .append("circle")
           .attr("class", "dot")
           .attr("r", 3.5)
           .attr("cx", xMap)
           .attr("cy", yMap)
-          .style("fill", function(d) { return color(cValue(d));})
+          
+   //       .style("fill", function(d) { return color(cValue(d));})
+          .style("fill", function(d) { return color(d.category);})
           .on("mouseover", function(d) {
               tooltip.transition()
                    .duration(200)
                    .style("opacity", .9);
-              tooltip.html(d.Article + "<br/> (" + xValue(d)
-    	        + ", " + yValue(d) + ")")
+              tooltip.html(d.title + "<br/> (" + xValue(d) + " , " + d.date + ")")
                    .style("left", (d3.event.pageX + 5) + "px")
                    .style("top", (d3.event.pageY - 28) + "px");
           })
@@ -96,24 +110,25 @@ d3.csv("js/stories.csv", function(error, data) {
           });
 
       // draw legend
-      var legend = chart3.selectAll(".legend")
-          .data(color.domain())
-        .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-      // draw legend colored rectangles
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
-
-      // draw legend text
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
-          .text(function(d) { return d;})
+//      var legend = chart5.selectAll(".legend")
+//          .data(color.domain())
+//        .enter().append("g")
+//          .attr("class", "legend")
+//          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+//
+//      // draw legend colored rectangles
+//      legend.append("rect")
+//          .attr("x", width - 18)
+//          .attr("width", 18)
+//          .attr("height", 18)
+//          .style("fill", color);
+//
+//      // draw legend text
+//      legend.append("text")
+//          .attr("x", width - 24)
+//          .attr("y", 9)
+//          .attr("dy", ".35em")
+//          .style("text-anchor", "end")
+//       //   .text(function(d) {return d;})
+//          .text("Politics")
     });

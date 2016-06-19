@@ -1,61 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Frequently Appearing Words</title>
-		<!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<script src="js/jquery.js"></script>
-		<script src="js/colorbrewer.js"></script>
-		<script src="js/d3.min.js"></script>
 
-		<style>
-				body { font-family: Georgia, sans-serif;
-							padding: 70px;
-				 }
-		</style>
-
-
-	</head>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav nav-pills">
-					<li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
-<!-- 					<li><a href="/sentiment" role="presentation">Trends in Politics</a></li> -->
-<!-- 					<li><a href="/locationMap" role="presentation">Location Map</a></li> -->
-<!-- 					<li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li> -->
-<!-- 					<li><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li> -->
-<!-- 					<li class="active"><a href="/freqWords" role="presentation">Frequently Appearing Words</a></li> -->
-					<li><a href="/project" role="presentation" >About The Project</a></li>
-					<li><a href="/about" role="presentation" >The Team</a></li>
-					 </ul>
-					</li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
-	<body>
-		<div class="container">
-				<h4 style="text-align:center;"> Frequently Appearing Words </h4>
-
-				<div class="row">
-					<div class="col-sm-12">
-						<p style="text-align:center;"> A look at which words appear most often in Baleen's news sources </p>
-					</div>
-				</div>
-
-				<div class="btn-group-lg" role="group" aria-label="..." style="text-align:center;">
-						<button class="opts" value="February" type="button" class="btn btn-default">February</button>
-						<button class="opts" value="March" type="button" class="btn btn-default">March</button>
-						<button class="opts" value="April" type="button" class="btn btn-default">April</button>
-						<button class="opts" value="May" type="button" class="btn btn-default" active autofocus="true">May</button>
-				</div>
-		</div>
-		<div id="viz" style="text-align:center;">
-		</div>
-		<script>
 			var width 		= 800;
 			var height 		= 600;
 			var diameter	= 550,
@@ -70,7 +13,7 @@
 								// .range(["#FF0000", "#009933" , "#0000FF"]);
 								 .range(["#0000FF", "#009933" , "#FF0000"]);
 
-			var canvas 		= d3.select("#viz")
+			var canvas 		= d3.select("#fwords")
 								.append("svg")
 								.attr("width", diameter)
 								.attr("height", diameter);
@@ -108,8 +51,8 @@
 
 		function updateData(dataSource)
 		{
-			var svg = d3.select("svg");
-			svg.selectAll("*").remove();
+			var chart2 = d3.select("svg");
+			chart2.selectAll("*").remove();
 			d3.csv(dataSource, function(data)
 			{
 				var node = canvas.selectAll(".node")
@@ -202,6 +145,3 @@
 								updateData(dataSource);
 							});
 
-		</script>
-	</body>
-</html>

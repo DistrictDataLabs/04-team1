@@ -5,8 +5,20 @@
     <title>Locations Mentioned in the News</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.1/leaflet.css" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+        body { font-family: Georgia, sans-serif;
+          padding: 50px
+  /*			   font-family: Helvetica, Arial, sans-serif; */
+         }
+
+  </style>
 
 </head>
 <style>
@@ -15,6 +27,7 @@
         height:100%;
         width:100%;
         margin:0;
+        padding: 70
     }
     #map{
         height:100%;
@@ -35,17 +48,17 @@
 
 
 </style>
-<nav class="navbar" style="margin: 0 auto; background-color: #3366ff" !important>
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav nav-pills">
         <li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
-        <li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
-        <li class="active"><a href="/locationMap" role="presentation">Location Map</a></li>
-        <li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li>
-        <li><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li>
-        <li><a href="/freqWords" role="presentation" >Frequently Appearing Words</a></li>
+<!--         <li><a href="/sentiment" role="presentation">Trends in Politics</a></li> -->
+<!--         <li class="active"><a href="/locationMap" role="presentation">Location Map</a></li> -->
+<!--         <li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li> -->
+<!--         <li><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li> -->
+<!--         <li><a href="/freqWords" role="presentation" >Frequently Appearing Words</a></li> -->
         <li><a href="/project" role="presentation" >About The Project</a></li>
         <li><a href="/about" role="presentation" >The Team</a></li>
          </ul>
@@ -100,8 +113,8 @@ pointToLayer: function(feature, latlon) {
 return L.circleMarker(latlon, {radius: feature.properties.count})
 }
     }).addTo(map)
-
-
-    </script>
+</script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
     </html>

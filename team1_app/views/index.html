@@ -1,157 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- Set the page to the width of the device and set the zoon level -->
-	<meta name="viewport" content="width = device-width, initial-scale = 1">
-	<title>Team 1 District Datalabs Project</title>
-<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
-	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-<!-- 	<style type="text/css"> -->
-<!-- /*	body  */ -->
-<!-- /*	{*/ -->
-<!-- /*/*		background-image: url("th-4.jpeg");*/ -->
-<!-- /*		background-color: #ccf5ff;*/ -->
-<!-- /*	}*/ -->
-<!-- /*	.jumbotron */ -->
-<!-- /*	{*/ -->
-<!-- /*		height: 350px;*/ -->
-<!-- /*		color: white;*/ -->
-<!-- /*		text-shadow: #444 0 1px 1px;*/ -->
-<!-- /*		background:transparent;*/ -->
-<!-- /*	}*/ -->
-<!-- /*	.bg-success */ -->
-<!-- /*	{*/ -->
-<!-- /*		background-color: #ccffcc;*/ -->
-<!-- /*		background-color:  #339966;*/ -->
-<!-- /*		color: white;*/ -->
-<!-- /*		text-shadow: #444 0 1px 1px;*/ -->
-<!-- /*	}*/ -->
-<!-- /*	.feature {*/ -->
-<!-- /*		background-color:  #339966;*/ -->
-<!-- /*		color: greenyellow;*/ -->
-<!-- /*	}*/ -->
-	<style>
-	    body { font-family: Georgia, sans-serif; 
-/*			   font-family: Helvetica, Arial, sans-serif; */
-			 }
-	    .container {
-	        width: 90%;
-	        margin: 20px auto;
-	        background-color: #FFF;
-	        padding: 20px;
-	    }
-
-			pre, code {
-				font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-				font-size: 12px;
-				color: #333;
-				-webkit-border-radius: 3px;
-				-moz-border-radius: 3px;
-				border-radius: 3px;
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Text Analysis Visualization</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- style -->
+		<link rel="stylesheet" type="text/css" href="css/background_normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/background_demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/background_component.css" />
+		<link href='//fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+		    body { font-family: Georgia, sans-serif;
+	/*			   font-family: Helvetica, Arial, sans-serif; */
+				 }
+		    .container {
+		        width: 100%;
+		        margin: 0px auto;
+		        padding: 0px;
+		    } 
+		
+			.node circle {
+				fill: #fff;
+				stroke: steelblue;
+				stroke-width: 1.5px;
 			}
-	    pre { border: 1px solid #CCC; background-color: #EEE; color: #333; padding: 10px; overflow: scroll; }
-			code { padding: 2px 4px; background-color: #F7F7F9; border: 1px solid #E1E1E8; color: #D14; }
-/*			.header { height: 300px; color: #FFF; }*/
-/*			.header div {*/
-/*				position: absolute;*/
-/*				bottom: 0;*/
-/*				width: 100%;*/
-/*				background: #000;*/
-/*				background: rgba(0,0,0,0.7);*/
-/*			}*/
-/*			.header h1*/
-/*			{*/
-/*				vertical-align:middle;*/
-/*				text-align:center;*/
-/*			}*/
-			.other { height: 300px; color: #FFF; }
-			.other div {
-				position: absolute;
-				bottom: 0;
-				width: 100%;
-				background: #000;
-				background: rgba(0,0,0,0.7);
+
+			.node {
+				font: 10px sans-serif;
 			}
-			.other div p { padding: 10px; }
-	</style>
-</head>
-<!-- <nav class="navbar navbar-default" style="margin: 0 auto; background-color: white;"> -->
-<!-- <nav class="navbar navbar-default" style="margin: 0 auto;"> -->
 
-<!-- <div class="header"><h1>The Mood of the Media</h1></div> -->
-<nav class="navbar" style="margin: 0 auto; background-color: #3399ff" !important>
-	<div class="container-fluid">
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav nav-pills">
-				<li class="active"><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
-				<li><a href="/sentiment" role="presentation">Trends in Politics</a></li>
-				<li><a href="/locationMap" role="presentation">Location Map</a></li>
-				<li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li>
-				<li><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li>
-				<li><a href="/freqWords" role="presentation" >Frequently Appearing Words</a></li>
-				<li><a href="/project" role="presentation" >About The Project</a></li>
-				<li><a href="/about" role="presentation" >The Team</a></li>
-				 </ul>
-				</li>
-			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
-</nav>
-<body>
-<!-- <nav> -->
-<!-- 	<div class="nav-wrapper lighten-2" style="background-color:  #339966"> -->
-<!-- 		<a class="brand-logo">The Mood of the Media</a> -->
-<!-- 	</div> -->
-<!-- </nav> -->
-<!-- <div class="other"> -->
-<!--   <div><p>The background image on this element was set using Backstretch.</p></div> -->
-<!-- </div> -->
-<!-- <div class="jumbotron bg-success"> -->
-<!-- 	<h1 class = "text-center">The Mood of the Media</h1> -->
-<!-- </div> -->
-	<div class="container-fluid" style="background-color:  #339966">
-		<h1 style="color: white">Text Summarization Though Visualization</h1>
-		<h2 style="color: white">A District Data Labs Project</h2>
-	</div>
+			.link {
+				fill: none;
+				stroke: #ccc;
+				stroke-width: 1.5px;
+			}
+  </style>
 
 
-<div class="col s6 offset-s2">
-	<p style="font-size: 20px; text-indent: 50px; margin: 30px">
-	This project is a product of the <a href="http://www.districtdatalabs.com/incubator/">District Data Labs Incubator Program</a>, which helps qualified participants gain hands-on data science experience with the assistance of mentors through creating a data product. We selected our team of four individuals through our common interest in natural language processing (NLP).
-	</p>
-	<p style="font-size: 20px; text-indent: 50px; margin: 30px">
-	There were two objectives for this project: The first was to assist our mentor, Benjamin Bengfort, with creating visualizations for his <a href="https://us.pycon.org/2016/">PyCon</a> talk on May 30, 2016. The second was to create a gallery of data products proposing more interesting ways, beyond the word cloud, to visualize text data.
-	</p>
-	<div style="font-size: 20px; text-indent: 50px;">
-	Our final product is this gallery. The tabs contain:
-	<ol>
-		<li style="list-style-position: inside;">Sentiment analysis visualizations</li>
-		<li style="list-style-position: inside;">Map of geographical entities</li>
-	</ol>
-	</div>
-	
-	<div style="font-size: 20px; text-indent: 50px;">
-	Next steps:
-	<ol>
-		<li style="list-style-position: inside;">Network visualization through word associations</li>
-		<li style="list-style-position: inside;">Topic model (HDP)</li>
-	</ol>
-	</div>
-	
-</div>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="js/jquery.backstretch.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-//	    $.backstretch(["pot-holder.jpg"]);
-//		 $.backstretch(["/images/Visual_of_USA_Flag_stars_and_stripes_FJM88NLModified1.jpg"]);
-//	$(".other").backstretch("/images/Visual_of_USA_Flag_stars_and_stripes_FJM88NLModified1.jpg");
-//	$(".header").backstretch("/images/COLOURlovers.com-TheMoonIsHerThrone.png");
+	</head>
 
-  </script>
-</body>
-
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav nav-pills">
+					<li><a href="/">Home<span class="sr-only" role="presentation"></span></a></li>
+<!-- 					<li><a href="/sentiment" role="presentation">Trends in Politics</a></li> -->
+<!-- 					<li><a href="/locationMap" role="presentation">Location Map</a></li> -->
+<!-- 					<li><a href="/d3sentiment" role="presentation" >Sentiment Across Categories</a></li> -->
+<!-- 					<li><a href="/baleenFeeds" role="presentation" >Baleen Feeds</a></li> -->
+<!-- 					<li><a href="/freqWords" role="presentation" >Frequently Appearing Words</a></li> -->
+					<li><a href="/project" role="presentation" >About The Project</a></li>
+					<li><a href="/about" role="presentation" >The Team</a></li>
+					 </ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<body>
+		<script src="js/d3.min.js"></script>
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+<!-- 					<h1 class="main-title"><b>Text Summarization <br>Through Visualization</b> <span class="thin"> <br><small> A District Data Labs Project</small></span></h1> -->
+					<h1 class="main-title"><b>Text Summarizer</b> <span class="thin"> <br><small> Visualize your text corpus!</small></span></h1>
+				</div>
+				<!-- <div class="codrops-top clearfix">
+					<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/OffCanvasMenuEffects/"><span>Previous Demo</span></a>
+					<a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=20153"><span>Back to the Codrops Article</span></a>
+				</div> -->
+				<!-- <div class="codrops-header">
+					<h1>Animated Background Headers <span>Examples for creative website header animations using Canvas and JavaScript</span></h1>
+					<nav class="codrops-demos">
+						<a class="current-demo" href="index.html">Demo 1</a>
+						<a href="index2.html">Demo 2</a>
+						<a href="index3.html">Demo 3</a>
+						<a href="index4.html">Demo 4</a>
+					</nav>
+				</div> -->
+			</div>
+			<!-- Related demos -->
+			<!-- <section class="related">
+				<p>If you enjoyed this demo you might also like:</p>
+				<a href="http://tympanus.net/Development/HeaderEffects/">
+					<img src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/07/HeaderEffects-300x162.jpg" />
+					<h3>On Scroll Header Effects</h3>
+				</a>
+				<a href="http://tympanus.net/Development/ArticleIntroEffects/">
+					<img src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2014/05/ArticleIntroEffects-300x162.png" />
+					<h3>Inspiration for Article Intro Effects</h3>
+				</a>
+			</section> -->
+			<p class="ref">Image credits: <a href="http://nickomargolies.com/big/2009/07/washington-monument-at-night/">Nicko</a></p>
+		</div><!-- /container -->
+		<p>
+			Use our suggestions to take your large text corpus and make it digestible!  We aim to make text accessible by providing intuitive visualizations.
+		</p>
+		<p>
+			First, get an idea of your data structure to find out what you may be capable of.  Our data source looks like this.
+		</p>
+		<div id="viz1" style="text-align:center;">
+		</div>
+		
+		<script src="js/baleenFeeds.js"></script>
+		<p>
+		  The most well known visualization used to describe a corpus is the word cloud.  However, it is not effective at conveying anything meaningful and useful about the corpus.  Here is a scathing <a href="http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/">article</a> on word clouds.  The following is an example of what a word cloud looks like.
+		</p>
+		<div style="text-align:center;">
+			<img src="images/bw_word_cloud.png">
+		</div>
+		<p>
+			Click on this <a href="/freqWords">link</a> to see a better example.
+		</p>
+		<p>  
+		 Sentiment Analysis can give insight to opinions expressed within the corpus. The following is a chart showing sentiment analysis by category.
+		</p>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- 		<script src="js/script.js"></script> -->
+		<h4 style="text-align:center;">News</h4>
+		<script src="js/sentiment_news.js"></script>		
+		<h4 style="text-align:center;">Politics</h4>
+		<script src="js/sentiment_politics.js"></script>
+		<h4 style="text-align:center;">Business</h4>
+		<script src="js/sentiment_business.js"></script>
+		<p>
+		 Text analysis can yield insterestng results when implemented for a particular purpose. In this <a href="/sentiment">case study</a> we analyzed our new and politics corpus to determine trands in politics.
+		</p>
+		<p>
+		  Utilize named entity recognition to find locations in your data and show them on a <a href="/locationMap">map</a> to see where these articles come from.
+		</p>
+		<script src="AnimatedBackground/js/TweenLite.min.js"></script>
+		<script src="AnimatedBackground/js/EasePack.min.js"></script>
+		<script src="AnimatedBackground/js/rAF.js"></script>
+		<script src="AnimatedBackground/js/demo-1.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery.backstretch.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
