@@ -1,0 +1,86 @@
+,Text,Types,Tokens,Sentences,date,category,link,title,Sentiment,anger,trust,disgust,joy,fear,sadness,anticipation,countIndex
+text56,text56,826,2245,66,4/5/2016,gaming,http://www.pcgamer.com/how-a-failed-kickstarter-sparked-eve-onlines-second-largest-battle-ever/,How a failed Kickstarter sparked Eve Onlines second largest battle ever,-38,33,29,14,17,37,28,21,1
+text34,text34,491,1298,40,4/25/2016,gaming,https://tagn.wordpress.com/2016/04/25/fast-time-with-boat-in-fade/,Fast Times with Boat in Fade,-9,15,19,7,9,16,12,17,1
+text35,text35,269,568,18,4/26/2016,gaming,https://tagn.wordpress.com/2016/04/26/capitals-at-okagaiken/,Capitals at Okagaiken,-3,8,6,2,3,8,5,5,3
+text71,text71,266,495,8,5/2/2016,gaming,http://arstechnica.com/gaming/2016/05/new-call-of-duty-is-the-first-game-ever-to-involve-shooting-dudes-in-space/,New Call of Duty is the (not) first game ever to involve shooting dudes in space,-3,13,10,4,5,15,9,6,4
+text77,text77,13,13,1,4/30/2016,gaming,http://store.steampowered.com/news/21666/,Dota 2 Update - April 30th 2016,-3,1,1,1,1,0,1,1,16
+text81,text81,26,31,1,5/2/2016,gaming,http://store.steampowered.com/news/21679/,Dota 2 Update - May 2nd 2016,-3,0,1,1,0,2,2,0,20
+text42,text42,599,1773,6,4/5/2016,gaming,http://www.pcgamer.com/the-division-11-patch-notes-released/,The Division 1.1 patch notes released,-2,13,20,4,13,16,13,14,2
+text58,text58,359,708,32,4/5/2016,gaming,http://www.pcgamer.com/petulance-and-privilege-in-crusader-kings-2/,Petulance and privilege in Crusader Kings 2,-2,10,18,5,8,16,12,10,1
+text65,text65,139,221,4,5/2/2016,gaming,http://www.eurogamer.net/articles/2016-05-02-patrice-desilets-reveals-footage-from-1666-amsterdam,Patrice Dsilets reveals footage from 1666 Amsterdam,-2,2,1,1,0,2,3,5,11
+text76,text76,52,73,4,4/30/2016,gaming,http://store.steampowered.com/news/21660/,Dota 2 Update - April 29th 2016,-2,1,0,0,0,1,1,3,15
+text37,text37,352,810,22,4/27/2016,gaming,https://tagn.wordpress.com/2016/04/27/citadels-arrive-in-new-eden/,Citadels Arrive in New Eden,-1,8,8,1,5,10,3,13,4
+text73,text73,40,47,4,4/29/2016,gaming,http://store.steampowered.com/news/21615/,"Daily Deal - Move or Die, 35% Off",-1,0,2,0,2,1,1,2,14
+text4,text4,197,358,7,5/2/2016,gaming,http://www.gamespot.com/articles/overwatch-backstory-explained-further-in-new-video/1100-6439426/,"Overwatch Backstory Explained Further in New Video, Winston Is One Goofy Gorilla",0,2,5,0,3,2,0,4,1
+text13,text13,0,0,0,5/2/2016,gaming,http://www.nintendolife.com/news/2016/05/humble_friends_of_nintendo_bundle_passes_usd1_million_and_100000_bundles_sold,"Humble Friends of Nintendo Bundle Passes $1 Million and 100,000 Bundles Sold",0,0,0,0,0,0,0,0,4
+text14,text14,0,0,0,5/2/2016,gaming,http://www.nintendolife.com/news/2016/05/legendary_pokemon_zygarde_shiny_xerneas_and_shiny_yveltal_all_coming_to_the_us_as_gifts,"Legendary Pokmon Zygarde, Shiny Xerneas and Shiny Yveltal All Coming to the US as Gifts",0,0,0,0,0,0,0,0,5
+text21,text21,172,281,10,5/2/2016,gaming,http://feedproxy.google.com/~r/SCEEBlog/~3/JhCTfyCrK_c/,"Escape the undead in Corridor Z, out May 3 on PS4, PS Vita",0,8,4,5,5,12,4,6,2
+text40,text40,928,2894,91,4/30/2016,gaming,https://tagn.wordpress.com/2016/04/30/april-in-review-10/,April in Review,0,18,34,9,23,22,21,28,1
+text57,text57,141,212,7,4/5/2016,gaming,http://www.pcgamer.com/dark-souls-3-speedruns-clock-in-under-90-minutes/,Dark Souls 3 speedruns clock in under 90 minutes,0,1,3,1,1,1,1,2,11
+text64,text64,175,284,4,5/2/2016,gaming,http://www.eurogamer.net/articles/2016-05-02-mighty-no-9-finally-has-a-release-date-set-in-stone,Mighty No. 9 finally has a release date set in stone,0,2,4,1,3,3,3,3,10
+text74,text74,5,7,1,4/29/2016,gaming,http://store.steampowered.com/news/21645/,"Now Available on Steam - N.E.R.O.: Nothing Ever Remains Obscure, 30% off!",0,0,0,0,0,0,0,0,15
+text75,text75,5,7,1,4/29/2016,gaming,http://store.steampowered.com/news/21642/,"Now Available on Steam - SONAR Steam Edition, 30% off!",0,0,0,0,0,0,0,0,16
+text83,text83,146,229,9,4/29/2016,gaming,http://indiegames.com/2016/04/bring_nuclear_disaster_with_yo.html,Bring Nuclear Disaster With Your Curiosity in MINUTEMAN,0,2,3,1,3,5,6,2,13
+text3,text3,28,38,1,5/2/2016,gaming,http://www.gamespot.com/videos/gs-news-call-of-duty-infinite-war-gears-of-war-4-m/2300-6431971/,"GS News - Call of Duty: Infinite War, Gears of War 4, Mighty No. 9 Release Date",1,0,1,0,1,1,0,1,1
+text6,text6,205,404,15,5/2/2016,gaming,http://www.gamespot.com/articles/call-of-duty-infinite-warfare-dev-says-story-inspi/1100-6439428/,"Call of Duty: Infinite Warfare Dev Says Story Inspiration Comes From War, Not Sci-Fi",1,2,5,1,3,8,5,6,2
+text7,text7,28,38,1,5/2/2016,gaming,http://www.gamespot.com/videos/battleborn-review-in-progress/2300-6431975/,Battleborn Review in Progress,1,0,1,0,1,1,0,1,2
+text53,text53,128,185,6,4/5/2016,gaming,http://www.pcgamer.com/mare-nostrum-out-now-for-europa-universalis-4/,Mare Nostrum out now for Europa Universalis 4,1,1,3,2,0,1,0,1,10
+text8,text8,110,176,4,5/2/2016,gaming,http://www.gamespot.com/articles/the-bioware-geese-have-hatched-and-are-on-their-wa/1100-6439430/,"The BioWare Geese Have Hatched and Are on Their Way, Watch the Video Here",2,2,5,0,4,4,2,3,3
+text10,text10,21,23,2,5/3/2016,gaming,http://toucharcade.com/2016/05/02/streaming-live-on-mobcrush/,We're Streaming iOS Games Live on Mobcrush [Monday Night with Carter],2,0,1,0,1,0,0,0,3
+text22,text22,62,85,1,5/2/2016,gaming,http://feeds.gawker.com/~r/kotaku/vip/~3/68kscarlHIA/the-first-orders-tie-pilots-are-lookin-sharp-1774162292,The First Order's TIE Pilots Are Lookin' Sharp,2,1,0,0,1,1,0,1,5
+text41,text41,553,1504,40,5/2/2016,gaming,https://tagn.wordpress.com/2016/05/02/industrial-revolution/,Industrial Revolution,2,11,19,5,11,10,7,16,4
+text63,text63,115,223,7,5/2/2016,gaming,http://www.eurogamer.net/articles/2016-05-02-the-nx-wont-be-sold-at-a-loss,NX won't be sold at a loss,2,1,4,0,3,2,1,7,12
+text67,text67,117,169,6,5/2/2016,gaming,http://www.eurogamer.net/articles/2016-05-02-raiden-v-arrives-in-the-west-next-week,Raiden V arrives in the west next week,2,1,3,0,0,1,1,1,13
+text78,text78,40,46,4,4/30/2016,gaming,http://store.steampowered.com/news/21616/,"Daily Deal - Dungeons 2, 75% Off",2,0,2,0,2,0,0,2,17
+text79,text79,40,48,4,5/1/2016,gaming,http://store.steampowered.com/news/21617/,"Daily Deal - Crypt of the NecroDancer, 67% Off",2,0,2,0,2,1,1,2,18
+text80,text80,42,49,4,5/2/2016,gaming,http://store.steampowered.com/news/21674/,"Daily Deal - Guardians of Middle-earth, 75% Off",2,0,2,0,2,0,0,2,19
+text84,text84,159,237,8,4/30/2016,gaming,http://indiegames.com/2016/04/tired_of_election_woes_let_a_c.html,Tired of Election Woes? Let a Cat President Solve Your Problems!,2,2,4,1,2,6,1,2,14
+text26,text26,114,186,8,5/2/2016,gaming,http://feeds.gawker.com/~r/kotaku/vip/~3/utKszJVGtHQ/mod-makes-fallout-new-vegas-combat-superhot-1774339181,Mod Makes Fallout: New Vegas' Combat SUPERHOT,3,3,0,3,0,3,1,1,2
+text30,text30,164,246,10,5/2/2016,gaming,http://feedproxy.google.com/~r/PSBlog/~3/TlLHPD3Wg74/,"Escape the Undead in Corridor Z, Out May 3 on PS4, PS Vita",3,7,4,5,5,10,4,5,3
+text32,text32,109,145,4,5/2/2016,gaming,http://feedproxy.google.com/~r/MajorNelson/~3/ZceIvqdPmzE/,UPDATED: Upcoming Xbox And Windows 10 Beta Release Schedule,3,1,5,1,2,1,0,3,7
+text59,text59,137,220,7,4/5/2016,gaming,http://www.pcgamer.com/play-the-original-legend-of-zelda-in-3d-in-your-browser/,Play the original Legend of Zelda in 3D in your browser,3,3,2,1,0,4,4,1,3
+text33,text33,180,313,7,4/25/2016,gaming,https://tagn.wordpress.com/2016/04/25/deklein-falls-goon-splinter-groups-double/,"Deklein Falls, Goon Splinter Groups Double",4,5,9,1,2,3,3,2,1
+text61,text61,131,222,8,4/5/2016,gaming,http://www.pcgamer.com/major-stardew-valley-makes-getting-married-more-fun-among-other-things/,"Major Stardew Valley update makes getting married more fun, among other things",4,3,4,1,5,2,2,6,5
+text27,text27,243,519,15,5/2/2016,gaming,http://feedproxy.google.com/~r/PSBlog/~3/3LPRR2fMC5I/,Soft Body Coming to PS4 on May 17,5,4,9,4,7,8,3,7,1
+text70,text70,236,494,8,5/2/2016,gaming,http://www.polygon.com/2016/5/2/11571398/report-hulu-to-carry-live-television-through-disney-fox-bundle,"Report: Hulu to carry live television through Disney, Fox bundle packages",5,1,7,1,2,2,0,4,14
+text1,text1,98,145,2,5/2/2016,gaming,http://www.gameinformer.com/b/news/archive/2016/05/02/pga-tour-golf-heading-to-ea-access-vault.aspx,PGA Tour Golf Heading To EA Access Vault,6,1,0,0,1,1,1,2,1
+text2,text2,80,121,6,5/2/2016,gaming,http://www.gameinformer.com/b/news/archive/2016/05/02/team-of-animator-reworks-super-smash-bros-melees-opening-animation.aspx,Team Of Animator Reworks Super Smash Bros. Melee's Opening Animation,6,1,1,0,1,3,0,3,2
+text25,text25,188,341,8,5/3/2016,gaming,http://feeds.gawker.com/~r/kotaku/vip/~3/WeoIDJ2qqGQ/finishing-half-life-2-in-40-minutes-1774352543,Finishing Half-Life 2 In 40 Minutes,6,1,5,0,4,2,1,5,6
+text15,text15,102,171,1,5/2/2016,gaming,http://feedproxy.google.com/~r/GamasutraFeatureArticles/~3/rC3Rd7zPtpE/Oculus_Rift_heads_to_retail_at_Best_Buy_stores.php,Oculus Rift heads to retail at Best Buy stores,7,0,6,1,1,0,1,1,6
+text23,text23,434,1074,39,5/2/2016,gaming,http://feeds.gawker.com/~r/kotaku/vip/~3/qzbNLRWFNOU/the-creators-of-burnout-are-making-a-game-thats-even-mo-1774317321,The Creators of Burnout Are Making A Game That's Even More Chaotic,7,6,14,4,9,4,4,9,2
+text54,text54,136,238,5,4/5/2016,gaming,http://www.pcgamer.com/when-is-our-htc-vive-review-coming/,When is our HTC Vive review coming?,7,0,0,0,0,0,0,5,11
+text72,text72,280,588,16,5/2/2016,gaming,http://arstechnica.com/gaming/2016/05/oculus-rift-will-be-in-stores-long-before-many-pre-orders-are-fulfilled/,Oculus Rift will be in stores long before many pre-orders are fulfilled,7,2,3,1,2,3,4,10,12
+text5,text5,309,716,12,5/2/2016,gaming,http://www.gamespot.com/articles/why-call-of-duty-is-going-to-space-and-what-that-a/1100-6439425/,Why Call of Duty Is Going to Space and What That Allows,9,8,10,2,4,13,5,5,1
+text48,text48,209,397,8,4/5/2016,gaming,http://www.pcgamer.com/samsung-figures-out-key-to-faster-more-power-efficient-dram/,"Samsung figures out key to faster, more power efficient DRAM",9,1,2,0,1,2,0,4,9
+text62,text62,397,948,23,4/5/2016,gaming,http://www.pcgamer.com/total-war-warhammer-how-to-make-fantasy-wars-authentic/,Total War: Warhammer how to make fantasy wars authentic,9,11,12,7,8,13,5,14,5
+text45,text45,202,407,9,4/5/2016,gaming,http://www.pcgamer.com/mechwarrior-online-world-championship-sign-ups-are-now-live/,MechWarrior Online World Championship sign-ups are now live,10,0,8,1,7,0,2,5,9
+text47,text47,198,379,9,4/5/2016,gaming,http://www.pcgamer.com/ubisoft-addresses-the-division-cheats-says-better-systems-are-coming/,"Ubisoft addresses The Division cheats, says better systems are coming",10,2,5,2,3,3,3,6,7
+text49,text49,146,257,4,4/5/2016,gaming,http://www.pcgamer.com/evga-now-offering-low-power-versions-of-geforce-gtx-950/,EVGA now offering low power versions of GeForce GTX 950,10,0,6,0,2,0,0,3,10
+text52,text52,121,170,6,4/5/2016,gaming,http://www.pcgamer.com/fallout-4-wasteland-workshop-dlc-detailed-coming-april-12/,Fallout 4 Wasteland Workshop DLC detailed; coming April 12,10,2,1,0,1,2,0,3,9
+text85,text85,145,242,7,5/2/2016,gaming,http://indiegames.com/2016/05/find_a_samurai_masters_story_i.html,Find a Samurai Master's Story in Your Wanderings Across the Peaceful World of Niten,10,0,4,0,2,2,2,3,21
+text12,text12,174,286,6,5/2/2016,gaming,http://toucharcade.com/2016/05/02/mucho-taco-cinco-de-mayo-update/,Huge 'Mucho Taco' Version 2.0 Update Arriving on Cinco de Mayo,11,1,4,0,5,0,0,3,3
+text16,text16,208,413,10,5/2/2016,gaming,http://feedproxy.google.com/~r/GamasutraFeatureArticles/~3/6xkfNv9JB9Y/Nintendo_NX_hardware_will_not_sell_at_a_loss.php,Nintendo NX hardware will not sell at a loss,11,2,8,2,2,1,3,7,4
+text66,text66,214,408,5,5/2/2016,gaming,http://www.eurogamer.net/articles/2016-05-02-uncharted-4s-multiplayer-content-will-all-be-unlockable-for-free,Uncharted 4's multiplayer content will all be unlockable for free,11,3,8,3,8,7,4,7,6
+text68,text68,165,306,7,5/2/2016,gaming,http://www.polygon.com/2016/5/2/11571884/must-craft-hearthstone-legendary-cards-best-guide-blizzard-pc-ios-mac-android,The Hearthstone legendary cards you must craft ASAP,11,0,4,1,1,1,1,0,12
+text18,text18,143,277,5,5/2/2016,gaming,http://feedproxy.google.com/~r/GamasutraFeatureArticles/~3/_171-wb9GRs/The_Chinese_mobile_game_market_is_shifting_toward_core_titles.php,The Chinese mobile game market is shifting toward core titles,13,0,6,0,2,1,0,5,7
+text82,text82,466,990,27,4/29/2016,gaming,http://indiegames.com/2016/04/trailer_roundup_for_april_29_1.html,"Trailer Roundup for April 29, 2016",13,14,15,7,11,22,15,19,1
+text31,text31,142,256,4,5/2/2016,gaming,http://feedproxy.google.com/~r/MajorNelson/~3/TVGfAmOLYEo/,Call of Duty: Infinite Warfare Is Now Available For Digital Pre-order On Xbox One,14,2,3,0,4,4,1,2,5
+text51,text51,323,743,17,4/5/2016,gaming,http://www.pcgamer.com/duelyst-leaving-open-beta-later-this-month/,Duelyst leaving open beta later this month,14,2,10,2,5,6,3,10,8
+text50,text50,377,778,30,4/5/2016,gaming,http://www.pcgamer.com/quantum-break-port-impressions/,Quantum Break port impressions,15,5,11,3,4,7,5,12,2
+text69,text69,152,249,8,5/2/2016,gaming,http://www.polygon.com/2016/5/2/11569800/bioware-goose-cam-final-video,Watch the heart-pounding conclusion to BioWare's Goose Cam,15,0,6,0,7,2,0,8,13
+text24,text24,98,152,5,5/2/2016,gaming,http://feeds.gawker.com/~r/kotaku/vip/~3/qZ6KCcNEQwU/dark-souls-player-shouldnt-have-gloated-1774333460,Dark Souls Player Shouldn't Have Gloated,16,0,3,0,4,0,1,2,8
+text46,text46,227,390,9,4/5/2016,gaming,http://www.pcgamer.com/dota-2-vr-spectator-mode/,Valve shows new Dota 2 VR spectator mode,16,1,11,1,6,2,1,6,8
+text11,text11,122,187,7,5/3/2016,gaming,http://toucharcade.com/2016/05/02/squids-inc-is-a-fantastic-looking-underwater-action-game-that-needs-beta-testers/,'Squids Inc' is a Fantastic-Looking Underwater Action Game That Needs Beta Testers,17,3,3,0,1,4,0,5,1
+text60,text60,334,639,15,4/5/2016,gaming,http://www.pcgamer.com/gtc-2016-gpus-can-do-more-than-gaming/,GTC 2016: GPUs can do more than gaming,21,3,12,3,7,4,3,9,4
+text17,text17,128,218,4,5/2/2016,gaming,http://feedproxy.google.com/~r/GamasutraFeatureArticles/~3/YC-b15xXezM/Microsoft_moves_to_boost_indie_devs_with_monthlong_IDXbox_promo.php,Microsoft moves to boost indie devs with month-long ID@Xbox promo,22,1,4,0,3,2,2,5,4
+text36,text36,532,1406,43,4/26/2016,gaming,https://tagn.wordpress.com/2016/04/26/will-nostalrius-drama-shift-the-sleeping-wow-giant/,Will Nostalrius Drama Shift the Sleeping WoW Giant?,22,11,24,7,12,9,8,22,2
+text38,text38,554,1501,42,4/28/2016,gaming,https://tagn.wordpress.com/2016/04/28/bb74-bump-and-grind/,BB74  Bump and Grind,24,11,14,2,8,16,11,13,3
+text43,text43,478,1173,26,4/5/2016,gaming,http://www.pcgamer.com/hand-of-fate-2-doubles-down-on-the-originals-cool-concept/,Hand of Fate 2 doubles down on the originals cool concept,25,15,22,7,13,18,14,17,2
+text55,text55,549,1186,34,4/5/2016,gaming,http://www.pcgamer.com/7-stunning-vr-experiences-you-dont-want-to-miss-on-htc-vive/,7 stunning VR experiences you dont want to miss on HTC Vive,28,6,19,6,13,11,5,26,3
+text20,text20,310,656,18,5/2/2016,gaming,http://feedproxy.google.com/~r/SCEEBlog/~3/TFpxTtozDpE/,Call of Duty: Infinite Warfare launches 4th November on PS4,29,7,17,2,14,8,5,18,1
+text29,text29,304,629,18,5/2/2016,gaming,http://feedproxy.google.com/~r/PSBlog/~3/PVXQOPYvYTo/,Call of Duty: Infinite Warfare Launches November 4 on PS4,29,7,17,2,14,8,5,18,2
+text39,text39,442,1058,36,4/29/2016,gaming,https://tagn.wordpress.com/2016/04/29/friday-bullet-points-from-beyond-the-blog/,Friday Bullet Points from Beyond the Blog,33,2,11,2,8,4,8,17,6
+text44,text44,669,2192,74,4/5/2016,gaming,http://www.pcgamer.com/improve-your-support-play-in-counter-strike-global-offensive/,Improve your support play in Counter-Strike: Global Offensive,57,13,31,5,15,14,12,25,3
+text19,text19,553,1819,51,5/2/2016,gaming,http://feedproxy.google.com/~r/SCEEBlog/~3/hbYWaI9heUo/,Everything you need to know about Uncharted 4 multiplayer,58,11,27,7,22,11,9,33,1
+text28,text28,547,1578,51,5/2/2016,gaming,http://feedproxy.google.com/~r/PSBlog/~3/kQatq_jBTDE/,Uncharted 4 Multiplayer Guide,58,13,27,7,22,12,10,33,1
+text9,text9,610,1898,41,5/2/2016,gaming,http://toucharcade.com/2016/05/02/fallen-london-review/,"'Fallen London' Review - An Artfully-Made, Wonderfully-Weird Labyrinth of Stories",66,6,32,5,27,10,11,37,1
