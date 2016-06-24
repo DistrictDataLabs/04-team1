@@ -44,10 +44,13 @@ could be removed, just to test if I can get coordinate while moving the mouse-->
 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 <!-- following are the scripts that using to map the basemap, and newslocation -->
 <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-<script src="newsLocation.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<!-- <script src="newsLocation.js"></script> -->
 
 <script>
     var map = L.map('map').setView([30, -30], 3);
+
     L.tileLayer('http://{s}.tiles.mapbox.com/v3/spatialdev.map-c9z2cyef/{z}/{x}/{y}.png', {
         maxZoom: 18,
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -56,30 +59,104 @@ could be removed, just to test if I can get coordinate while moving the mouse-->
         id: 'mapbox.streets'
     }).addTo(map);
 
-    function zoomToFeature(e) {
-      map.fitBounds(e.target.getBounds());
-        // console.log(e.target.feature.properties.facility_type)
-        popup
-                .setLatLng(e.latlng)
-                // .setContent(e.target.feature.properties.facility_type)
-                  // .openOn(map);
-    }
-    function onEachFeature(feature, layer) {
-      var popupContent = feature.properties.location ;
-    // does this feature have a property named popupContent?
-        layer.bindPopup(popupContent);
-    }
+    // function zoomToFeature(e) {
+    //   map.fitBounds(e.target.getBounds());
+    //     // console.log(e.target.feature.properties.facility_type)
+    //     popup
+    //             .setLatLng(e.latlng)
+    //             // .setContent(e.target.feature.properties.facility_type)
+    //               // .openOn(map);
+    // }
+    // function onEachFeature(feature, layer) {
+    //   var popupContent = feature.properties.country ;
+    // // does this feature have a property named popupContent?
+    //     layer.bindPopup(popupContent);
+    // }
 
-    geojson = L.geoJson(Newslocations, {
-      onEachFeature: onEachFeature,
+    var   News = L.geoJson(false, {
+          // onEachFeature: onEachFeature,
+          //  style: style,
+    pointToLayer: function(feature, latlon) {
+    // L.circleMarker() draws a circle with fixed radius in pixels.
+    // To draw a circle overlay with a radius in meters, use L.circle()
+     var newsmarker =  L.circleMarker(latlon, {radius: feature.properties.count/10});
+       newsmarker.bindPopup("<strong>" + feature.properties.country+ "</strong><br/>" + feature.properties.count);
+     return newsmarker;
+    }
+        }).addTo(map)
+
+        $.getJSON("newsLocation.geojson", function(data) {
+            News.addData(data);
+    });
+
+
+
+    var   books = L.geoJson(false, {
+          // onEachFeature: onEachFeature,
+          //  style: style,
+    pointToLayer: function(feature, latlon) {
+    // L.circleMarker() draws a circle with fixed radius in pixels.
+    // To draw a circle overlay with a radius in meters, use L.circle()
+     var bookmarker =  L.circleMarker(latlon, {radius: feature.properties.count});
+     bookmarker.bindPopup("<strong>" + feature.properties.country+ "</strong><br/>" + feature.properties.count);
+     return bookmarker;
+    }
+        }).addTo(map)
+
+        $.getJSON("booksLocation.geojson", function(data) {
+            books.addData(data);
+});
+
+var   cinema = L.geoJson(false, {
+      // onEachFeature: onEachFeature,
       //  style: style,
 pointToLayer: function(feature, latlon) {
 // L.circleMarker() draws a circle with fixed radius in pixels.
 // To draw a circle overlay with a radius in meters, use L.circle()
-return L.circleMarker(latlon, {radius: feature.properties.count})
+ var cinemamarker =  L.circleMarker(latlon, {radius: feature.properties.count});
+cinemamarker.bindPopup("<strong>" + feature.properties.country+ "</strong><br/>" + feature.properties.count);
+ return cinemamarker;
 }
     }).addTo(map)
 
+    $.getJSON("cinemaLocations.geojson", function(data) {
+        cinema.addData(data);
+});
+
+
+var   business = L.geoJson(false, {
+      // onEachFeature: onEachFeature,
+      //  style: style,
+pointToLayer: function(feature, latlon) {
+// L.circleMarker() draws a circle with fixed radius in pixels.
+// To draw a circle overlay with a radius in meters, use L.circle()
+ var bizmarker =  L.circleMarker(latlon, {radius: feature.properties.count/2});
+ bizmarker.bindPopup("<strong>" + feature.properties.country+ "</strong><br/>" + feature.properties.count);
+ return bizmarker;
+}
+    }).addTo(map)
+
+    $.getJSON("bizLocations.geojson", function(data) {
+        business.addData(data);
+});
+
+
+    var overlayMaps = {
+    		"Books": books,
+        "Business": business,
+        "News": News,
+        "Cinema": cinema
+    	};
+
+  //   var mcg = L.markerClusterGroup.layerSupport().addTo(map);
+  //
+  //   mcg.checkIn([
+	// 	newsmarker,
+	// 	bookmarker
+	// ]);
+
+
+	L.control.layers(overlayMaps).addTo(map);
 
     </script>
     </body>

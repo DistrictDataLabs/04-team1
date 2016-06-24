@@ -1,0 +1,581 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.3911,43.0964 ]
+    },
+    "properties": {
+    "FIELD1":0,
+    "country":"Alabama:United States",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.0,-34.0 ]
+    },
+    "properties": {
+    "FIELD1":1,
+    "country":"Argentina",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 133.0,-27.0 ]
+    },
+    "properties": {
+    "FIELD1":2,
+    "country":"Australia",
+    "count":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 123.912,39.8825 ]
+    },
+    "properties": {
+    "FIELD1":3,
+    "country":"Beijing:China",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 20.4681,44.8186 ]
+    },
+    "properties": {
+    "FIELD1":4,
+    "country":"Belgrade:Serbia",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.0,-10.0 ]
+    },
+    "properties": {
+    "FIELD1":5,
+    "country":"Brazil",
+    "count":32
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 153.017,-27.5 ]
+    },
+    "properties": {
+    "FIELD1":6,
+    "country":"Brisbane:Australia",
+    "count":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.0,60.0 ]
+    },
+    "properties": {
+    "FIELD1":7,
+    "country":"Canada",
+    "count":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.08333,43.9167 ]
+    },
+    "properties": {
+    "FIELD1":8,
+    "country":"Cannes:France",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0,-30.0 ]
+    },
+    "properties": {
+    "FIELD1":9,
+    "country":"Chile",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.0,35.0 ]
+    },
+    "properties": {
+    "FIELD1":10,
+    "country":"China",
+    "count":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.0,27.0 ]
+    },
+    "properties": {
+    "FIELD1":11,
+    "country":"Egypt",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.0,54.0 ]
+    },
+    "properties": {
+    "FIELD1":12,
+    "country":"England",
+    "count":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0,46.0 ]
+    },
+    "properties": {
+    "FIELD1":13,
+    "country":"France",
+    "count":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 43.5,42.0 ]
+    },
+    "properties": {
+    "FIELD1":14,
+    "country":"Georgia",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0,51.0 ]
+    },
+    "properties": {
+    "FIELD1":15,
+    "country":"Germany",
+    "count":66
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 22.0,39.0 ]
+    },
+    "properties": {
+    "FIELD1":16,
+    "country":"Greece",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.167,22.25 ]
+    },
+    "properties": {
+    "FIELD1":17,
+    "country":"Hong Kong",
+    "count":38
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.0,20.0 ]
+    },
+    "properties": {
+    "FIELD1":18,
+    "country":"India",
+    "count":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.0,32.0 ]
+    },
+    "properties": {
+    "FIELD1":19,
+    "country":"Iran",
+    "count":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.0,33.0 ]
+    },
+    "properties": {
+    "FIELD1":20,
+    "country":"Iraq",
+    "count":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.8333,42.8333 ]
+    },
+    "properties": {
+    "FIELD1":21,
+    "country":"Italy",
+    "count":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.0,36.0 ]
+    },
+    "properties": {
+    "FIELD1":22,
+    "country":"Japan",
+    "count":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 36.0,31.0 ]
+    },
+    "properties": {
+    "FIELD1":23,
+    "country":"Jordan",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.5,6.5 ]
+    },
+    "properties": {
+    "FIELD1":24,
+    "country":"Liberia",
+    "count":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5333,47.1667 ]
+    },
+    "properties": {
+    "FIELD1":25,
+    "country":"Liechtenstein",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.116667,51.5 ]
+    },
+    "properties": {
+    "FIELD1":26,
+    "country":"London:England",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.5833,35.8333 ]
+    },
+    "properties": {
+    "FIELD1":27,
+    "country":"Malta",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.967,-37.8167 ]
+    },
+    "properties": {
+    "FIELD1":28,
+    "country":"Melbourne:Australia",
+    "count":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.0,23.0 ]
+    },
+    "properties": {
+    "FIELD1":29,
+    "country":"Mexico",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.0,46.0 ]
+    },
+    "properties": {
+    "FIELD1":30,
+    "country":"Mongolia",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.75,52.5 ]
+    },
+    "properties": {
+    "FIELD1":31,
+    "country":"Netherlands",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 174.0,-41.0 ]
+    },
+    "properties": {
+    "FIELD1":32,
+    "country":"New Zealand",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0,10.0 ]
+    },
+    "properties": {
+    "FIELD1":33,
+    "country":"Nigeria",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.0,62.0 ]
+    },
+    "properties": {
+    "FIELD1":34,
+    "country":"Norway",
+    "count":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.33333,48.8667 ]
+    },
+    "properties": {
+    "FIELD1":35,
+    "country":"Paris:France",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.0,39.5 ]
+    },
+    "properties": {
+    "FIELD1":36,
+    "country":"Portugal",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 100.0,60.0 ]
+    },
+    "properties": {
+    "FIELD1":37,
+    "country":"Russia",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 45.0,25.0 ]
+    },
+    "properties": {
+    "FIELD1":38,
+    "country":"Saudi Arabia",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8,1.3667 ]
+    },
+    "properties": {
+    "FIELD1":39,
+    "country":"Singapore",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0,40.0 ]
+    },
+    "properties": {
+    "FIELD1":40,
+    "country":"Spain",
+    "count":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0,47.0 ]
+    },
+    "properties": {
+    "FIELD1":41,
+    "country":"Switzerland",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.0,23.5 ]
+    },
+    "properties": {
+    "FIELD1":42,
+    "country":"Taiwan",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 100.0,15.0 ]
+    },
+    "properties": {
+    "FIELD1":43,
+    "country":"Thailand",
+    "count":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.2964,32.4861 ]
+    },
+    "properties": {
+    "FIELD1":44,
+    "country":"United States",
+    "count":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.0,-33.0 ]
+    },
+    "properties": {
+    "FIELD1":45,
+    "country":"Uruguay",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.74778,8.42194 ]
+    },
+    "properties": {
+    "FIELD1":46,
+    "country":"Voinjama:Liberia",
+    "count":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.512,27.7806 ]
+    },
+    "properties": {
+    "FIELD1":47,
+    "country":"Xinjiang:China",
+    "count":2
+    }
+  }
+]
+}

@@ -1,111 +1,139 @@
-,location,lat,lon,count
-0,"Abbottabad, Pakistan",34.15,73.2167,2
-1,Afghanistan,33.0,65.0,41
-2,Algeria,28.0,3.0,2
-3,Argentina,-34.0,-64.0,1
-4,"Arusha,Tanzania",-3.36667,36.6833,1
-5,Australia,-27.0,133.0,6
-6,"BOSTON, United States",42.3601,71.0589,1
-7,"Baghdad, Iraq",33.3386,44.3939,1
-8,"Balkan, Turkey",38.9333,39.65,1
-9,Bolivia,-17.0,-65.0,1
-10,Brazil,-10.0,-55.0,11
-11,"Broadway, England",50.65,-2.46667,1
-12,"Cairo,United States",34.8706,-87.1444,1
-13,"California, United States",33.9189,-84.7458,1
-14,Canada,60.0,-95.0,11
-15,China,35.0,105.0,18
-16,Colombia,4.0,-72.0,2
-17,Croatia,45.1667,15.5,1
-18,Cuba,21.5,-80.0,9
-19,"Delhi, India",28.6667,77.2167,1
-20,Denmark,56.0,10.0,1
-21,Egypt,27.0,30.0,11
-22,England,54.0,-2.0,4
-23,"Florida, United States",37.215,-107.752,2
-24,France,43.9725,-111.274,1
-25,France,44.6333,0.45,2
-26,France,46.0,2.0,13
-27,Georgia,42.0,43.5,40
-28,Germany,51.0,9.0,18
-29,Greece,39.0,22.0,10
-30,"Hamburg, Germany",53.55,10.0,1
-31,"Havana, Cuba",23.1319,-82.3642,2
-32,India,20.0,77.0,12
-33,Indonesia,-5.0,120.0,15
-34,Iran,32.0,53.0,8
-35,"Iran,Iran",32.0922,51.0289,1
-36,Iraq,33.0,44.0,20
-37,Ireland,53.0,-8.0,2
-38,"Islam, Afghanistan",36.9722,66.68,1
-39,"Islamabad, Pakistan",32.6528,70.8294,2
-40,"Island, France",47.4667,3.85,1
-41,Israel,31.5,34.75,23
-42,Italy,42.8333,12.8333,1
-43,"Jakarta, Indonesia",-6.17444,106.829,2
-44,Japan,36.0,138.0,16
-45,"Jerusalem, Israel",31.78,35.23,1
-46,Jordan,31.0,36.0,4
-47,"Kano, Nigeria",11.9964,8.51667,2
-48,Kazakhstan,48.0,68.0,4
-49,Kenya,1.0,38.0,3
-50,Kuwait,29.3375,47.6581,1
-51,Lebanon,33.8333,35.8333,1
-52,Libya,25.0,17.0,2
-53,"London, England",51.5,-0.116667,1
-54,Macedonia,41.8333,22.0,5
-55,Madagascar,-20.0,47.0,1
-56,"Madrid, Spain",40.4,-3.68333,1
-57,Malaysia,2.5,112.5,2
-58,Malaysia,6.11667,100.367,1
-59,Mali,17.0,-4.0,1
-60,Mauritania,20.0,-12.0,11
-61,Mauritius,-20.2833,57.55,1
-62,Mexico,23.0,-102.0,8
-63,"Mexico, Mexico",32.5139,-114.976,1
-64,Morocco,32.0,-5.0,1
-65,"Mosul,Iraq",36.335,43.1189,1
-66,Nepal,28.0,84.0,1
-67,Netherlands,52.5,5.75,1
-68,New Zealand,-41.0,174.0,1
-69,Nigeria,10.0,8.0,4
-70,North Korea,40.0,127.0,21
-71,Pakistan,30.0,70.0,21
-72,"Paris, France",48.8566,2.3522,1
-73,"Petra, Jordan",30.3167,35.4833,1
-74,Portugal,39.5,-8.0,1
-75,Puerto Rico,18.25,-66.5,6
-76,"Rawalpindi, Pakistan",33.6,73.0667,1
-77,Russia,60.0,100.0,26
-78,Samoa,-13.5833,-172.333,2
-79,Saudi Arabia,25.0,45.0,4
-80,Scotland,54.0,-2.0,3
-81,Scotland,54.65,-6.21667,1
-82,Senegal,14.0,-14.0,1
-83,Serbia,44.0,21.0,1
-84,"Sergipe, Brazil",-21.1333,-50.8,1
-85,"Seville, Spain",37.3772,-5.98694,1
-86,Singapore,1.3667,103.8,2
-87,Somalia,10.0,49.0,1
-88,South Africa,-29.0,24.0,4
-89,South Korea,37.0,127.5,5
-90,Spain,40.0,-4.0,9
-91,Sudan,15.0,30.0,7
-92,Switzerland,47.0,8.0,2
-93,"Sydney, Australia",-33.8833,151.217,1
-94,Taiwan,23.5,121.0,1
-95,"Tennessee, United States",33.6311,-91.8486,1
-96,Thailand,15.0,100.0,1
-97,"Toronto,Canada",43.6667,-79.4167,1
-98,Tunisia,34.0,9.0,2
-99,Turkey,39.0,35.0,9
-100,Ukraine,49.0,32.0,1
-101,United States,35.2919,-93.7297,1
-102,United States,38.0,-97.0,22
-103,United States,38.8492,-105.788,1
-104,United States,39.3181,-79.8111,1
-105,United States,39.5236,-87.125,1
-106,"Vermont, United States",40.2942,-90.4278,1
-107,"Yogyakarta, Indonesia",-7.8,110.367,1
-108,"York, United States",32.4861,-88.2964,1
-109,Zimbabwe,-20.0,30.0,1
+,country,count,lat,log
+0,Afghanistan,263,33,65
+1,Algeria,4,28,3
+2,Angola,6,-12.5,18.5
+3,Antarctica,4,-90,0
+4,Argentina,22,-34,-64
+5,Armenia,36,40,45
+6,Australia,194,-37.8167,144.967
+7,Azerbaijan,24,40.5,47.5
+8,Bahrain,12,26,50.55
+9,Bangladesh,16,24,90
+10,Barbados,4,13.1667,-59.5333
+11,Belgium,53,50.4833,4.66667
+12,Benin,3,6.35,2.43333
+13,Bermuda,6,32.3333,-64.75
+14,Bolivia,36,-17,-65
+15,Brazil,108,-26.2167,-48.8333
+16,Bulgaria,2,43,25
+17,Burundi,12,-3.5,30
+18,Cambodia,25,13,105
+19,Cameroon,2,6,12
+20,Canada,72,48.75,-64.5833
+21,Chile,32,-30,-71
+22,China,616,22.5978,107.567
+23,Colombia,16,2.69111,-75.5531
+24,Costa Rica,12,10,-84
+25,Croatia,13,45.1667,15.5
+26,Cuba,270,20.55,-75.9167
+27,Cyprus,10,35,33
+28,Denmark,8,55.65,12.0833
+29,Djibouti,7,11.5,43
+30,Ecuador,15,-2.16667,-79.9
+31,Egypt,54,27,30
+32,El Salvador,4,13.8333,-88.9167
+33,England,264,50.65,-2.46667
+34,Estonia,8,59,26
+35,Ethiopia,4,8,38
+36,European Union,20,47,8
+37,Finland,6,64,26
+38,France,186,43.6667,-1.45
+39,Gambia,6,13.4667,-16.5667
+40,Georgia,72,42,43.5
+41,Germany,255,51,9
+42,Ghana,8,8,-2
+43,Great Britain,4,54,-2
+44,Greece,47,37.9833,23.7333
+45,Greenland,24,72,-40
+46,Guam,6,13.4667,144.783
+47,Guatemala,21,14.6211,-90.5269
+48,Guinea,2,11,-10
+49,Haiti,38,19,-72.4167
+50,Honduras,4,15,-86.5
+51,Hong Kong,90,22.25,114.167
+52,Hungary,43,47,20
+53,Iceland,28,65,-18
+54,India,335,20,77
+55,Indonesia,47,-7.44917,110.282
+56,Iran,155,27.4586,55.4756
+57,Iraq,717,33,44
+58,Ireland,112,52.3342,-6.4575
+59,Israel,705,31.5,34.75
+60,Italy,75,38.1833,15.5667
+61,JAPAN,2,36,138
+62,Jamaica,42,18.25,-77.5
+63,Japan,169,26.3358,127.801
+64,Jordan,35,31,36
+65,Kazakhstan,6,48,68
+66,Kenya,20,-2.98333,38.4667
+67,Kuwait,42,29.3375,47.6581
+68,Laos,4,18,105
+69,Latvia,10,57,25
+70,Lebanon,47,33.8333,35.8333
+71,Libya,68,25,17
+72,Liechtenstein,2,47.1667,9.5333
+73,Lithuania,10,56,24
+74,Luxembourg,11,49.6117,6.13
+75,Macau,2,22.1667,113.55
+76,Macedonia,4,41.8333,22
+77,Malaysia,29,2.5,112.5
+78,Maldives,12,3.25,73
+79,Mali,10,17,-4
+80,Malta,71,35.8333,14.5833
+81,Mexico,187,15.2333,-92.65
+82,Moldova,2,47,29
+83,Mongolia,2,46,105
+84,Morocco,12,32,-5
+85,Myanmar,8,22,98
+86,Nauru,72,-0.5333,166.917
+87,Nepal,32,27.7167,85.3167
+88,Netherlands,41,51.65,3.93333
+89,New Zealand,82,-41,174
+90,Niger,2,16,8
+91,Nigeria,29,10,8
+92,North Korea,145,39.0194,125.755
+93,Norway,22,62,10
+94,Oman,8,21,57
+95,Pakistan,123,30,70
+96,Panama,84,7.73333,-80.8167
+97,Paraguay,18,-25.2667,-57.6667
+98,Peru,12,-10,-76
+99,Poland,62,52,20
+100,Portugal,12,39.5,-8
+101,Puerto Rico,10,18.25,-66.5
+102,Qatar,30,25.5,51.25
+103,Romania,17,44.4689,22.6672
+104,Russia,269,43.3103,44.0842
+105,Saudi Arabia,125,24.6408,46.7728
+106,Scotland,59,50.8333,-0.15
+107,Senegal,4,14,-14
+108,Serbia,10,42.3092,21.6492
+109,Seychelles,2,-4.5833,55.6667
+110,Sierra Leone,12,8.5,-11.5
+111,Singapore,16,1.3667,103.8
+112,Slovenia,20,46,15
+113,Somalia,14,-0.366667,42.5333
+114,South Africa,31,-30.7833,28.5833
+115,South Korea,122,37,127.5
+116,Spain,107,40,-4
+117,Sudan,44,15,30
+118,Sweden,18,62,15
+119,Switzerland,30,46.0167,7.75
+120,Taiwan,44,23.0333,121.283
+121,Taiwan-China,2,32.325,118.762
+122,Tajikistan,10,39,71
+123,Tanzania,38,-6,35
+124,Thailand,58,13.75,100.517
+125,Tokelau,12,-9,-172
+126,Tunisia,97,34,9
+127,Turkey,140,37.0594,37.3825
+128,UK,9,54,-2
+129,Ukraine,90,49,32
+130,United States,634,13.4586,144.787
+131,Uruguay,10,-33,-56
+132,Uzbekistan,2,41,64
+133,Vatican,10,41.9,12.45
+134,Venezuela,10,7.68389,-72.3631
+135,Wales,8,54,-2
+136,Yemen,71,15,48
+137,Zimbabwe,8,-20,30

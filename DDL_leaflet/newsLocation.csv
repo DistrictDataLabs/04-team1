@@ -1,0 +1,184 @@
+,country,count,lat,log
+0,Afghanistan,259,33.0,65.0
+1,Algeria,4,28.0,3.0
+2,Angola,6,-12.5,18.5
+3,Antarctica,4,-90.0,0.0
+4,Argentina,22,-34.0,-64.0
+5,Armenia,36,40.0,45.0
+6,Asuncion:Paraguay,2,-25.2667,-57.6667
+7,Australia,189,-37.8167,144.967
+8,Azerbaijan,24,40.5,47.5
+9,Bahrain,12,26.0,50.55
+10,Bangkok:Thailand,2,13.75,100.517
+11,Bangladesh,16,24.0,90.0
+12,Barbados,4,13.1667,-59.5333
+13,Bashar:Russia,2,58.0003,50.5869
+14,Belgium,51,50.4833,4.66667
+15,Benin,3,6.35,2.43333
+16,Berlin:Germany,2,54.0333,10.45
+17,Bermuda,6,32.3333,-64.75
+18,Bolivia,36,-17.0,-65.0
+19,Brasilia:Brazil,2,-11.0,-68.7333
+20,Brazil,105,-26.2167,-48.8333
+21,Brighton:Scotland,2,50.8333,-0.15
+22,Brisbane:Australia,2,-27.5,153.017
+23,Bulgaria,2,43.0,25.0
+24,Burundi,12,-3.5,30.0
+25,Cambodia,25,13.0,105.0
+26,Cameroon,2,6.0,12.0
+27,Canada,72,48.75,-64.5833
+28,Carolina:United States,2,31.2406,-86.5278
+29,Chelsea:England,6,51.4833,-0.183333
+30,Chile,32,-30.0,-71.0
+31,China,615,22.5978,107.567
+32,Colombia,16,2.69111,-75.5531
+33,Costa Rica,12,10.0,-84.0
+34,Croatia,13,45.1667,15.5
+35,Cuba,269,20.55,-75.9167
+36,Cyprus,10,35.0,33.0
+37,Denmark,8,55.65,12.0833
+38,Djibouti,7,11.5,43.0
+39,Drumnadrochit:England,2,57.3333,-4.48333
+40,Dublin:Ireland,2,53.3331,-6.24889
+41,Durham:England,2,54.7667,-1.56667
+42,Ecuador,15,-2.16667,-79.9
+43,Egypt,52,27.0,30.0
+44,El Salvador,4,13.8333,-88.9167
+45,Elton:England,2,53.2667,-2.81667
+46,England,256,50.65,-2.46667
+47,Estonia,8,59.0,26.0
+48,Ethiopia,4,8.0,38.0
+49,European Union,20,47.0,8.0
+50,Everton:England,2,52.1333,-0.233333
+51,Finland,6,64.0,26.0
+52,Florida:United States,2,37.215,-107.752
+53,France,184,43.6667,-1.45
+54,Gambia,6,13.4667,-16.5667
+55,Georgia,72,42.0,43.5
+56,Germany,253,51.0,9.0
+57,Ghana,8,8.0,-2.0
+58,Great Britain,4,54.0,-2.0
+59,Greece,47,37.9833,23.7333
+60,Greenland,24,72.0,-40.0
+61,Guam,6,13.4667,144.783
+62,Guatemala,21,14.6211,-90.5269
+63,Guinea,2,11.0,-10.0
+64,Haiti,38,19.0,-72.4167
+65,Havana:Cuba,2,23.1319,-82.3642
+66,Honduras,4,15.0,-86.5
+67,Hong Kong,90,22.25,114.167
+68,Hungary,43,47.0,20.0
+69,Iceland,28,65.0,-18.0
+70,India,335,20.0,77.0
+71,Indiana:United States,2,41.2044,-93.025
+72,Indonesia,47,-7.44917,110.282
+73,Iran,155,27.4586,55.4756
+74,Iraq,715,33.0,44.0
+75,Ireland,107,52.3342,-6.4575
+76,Israel,703,31.5,34.75
+77,Italy,70,38.1833,15.5667
+78,JAPAN,2,36.0,138.0
+79,Jamaica,42,18.25,-77.5
+80,Japan,168,26.3358,127.801
+81,Jerusalem:Israel,2,31.78,35.23
+82,Jordan,35,31.0,36.0
+83,Kazakhstan,6,48.0,68.0
+84,Kenya,20,-2.98333,38.4667
+85,Kuwait,42,29.3375,47.6581
+86,Laos,4,18.0,105.0
+87,Latvia,10,57.0,25.0
+88,Lebanon,47,33.8333,35.8333
+89,Leipzig:Germany,2,51.3,12.3333
+90,Libya,68,25.0,17.0
+91,Liechtenstein,2,47.1667,9.5333
+92,Lige:Belgium,4,50.6333,5.56667
+93,Lithuania,10,56.0,24.0
+94,London:England,2,51.5,-0.116667
+95,Luxembourg,11,49.6117,6.13
+96,Macau,2,22.1667,113.55
+97,Macedonia,4,41.8333,22.0
+98,Malaysia,29,2.5,112.5
+99,Maldives,12,3.25,73.0
+100,Mali,10,17.0,-4.0
+101,Malta,70,35.8333,14.5833
+102,Melbourne:Australia,2,-37.8167,144.967
+103,Mexico,187,15.2333,-92.65
+104,Miami:United States,2,33.3992,-110.868
+105,Moldova,2,47.0,29.0
+106,Mongolia,2,46.0,105.0
+107,Morocco,12,32.0,-5.0
+108,Moscow:Russia,2,55.7522,37.6156
+109,Mosul:Iraq,4,36.335,43.1189
+110,Moura:Brazil,2,-1.45,-61.6333
+111,Myanmar,8,22.0,98.0
+112,Nauru,72,-0.5333,166.917
+113,Nepal,32,27.7167,85.3167
+114,Netherlands,41,51.65,3.93333
+115,New Zealand,80,-41.0,174.0
+116,Niger,2,16.0,8.0
+117,Nigeria,29,10.0,8.0
+118,North Korea,145,39.0194,125.755
+119,Norway,22,62.0,10.0
+120,Oman,8,21.0,57.0
+121,Orlando:United States,2,33.7197,-92.1411
+122,Pakistan,123,30.0,70.0
+123,Panama,84,7.73333,-80.8167
+124,Paraguay,16,-25.2667,-57.6667
+125,Paris:France,2,48.8667,2.33333
+126,Peru,12,-10.0,-76.0
+127,Peterhead:Scotland,2,57.5,-1.78333
+128,Petersburg:Russia,2,59.8944,30.2642
+129,Piracicaba:Brazil,2,-18.4833,-48.4333
+130,Poland,62,52.0,20.0
+131,Portugal,12,39.5,-8.0
+132,Puerto Rico,10,18.25,-66.5
+133,Pyeongchang:South Korea,2,37.3703,128.393
+134,Qatar,30,25.5,51.25
+135,Riyadh:Saudi Arabia,2,24.6408,46.7728
+136,Romania,17,44.4689,22.6672
+137,Rome:Italy,4,41.9,12.4833
+138,Russia,261,43.3103,44.0842
+139,Saudi Arabia,123,24.6408,46.7728
+140,Scotland,56,50.8333,-0.15
+141,Senegal,4,14.0,-14.0
+142,Serbia,10,42.3092,21.6492
+143,Seychelles,2,-4.5833,55.6667
+144,Shanghai:China,2,31.005,121.409
+145,Shlomi:Israel,2,33.0667,35.1
+146,Sierra Leone,12,8.5,-11.5
+147,Singapore,16,1.3667,103.8
+148,Slovenia,20,46.0,15.0
+149,Sochi:Russia,8,43.6,39.7303
+150,Somalia,14,-0.366667,42.5333
+151,South Africa,31,-30.7833,28.5833
+152,South Korea,121,37.0,127.5
+153,Spain,105,40.0,-4.0
+154,Sudan,44,15.0,30.0
+155,Sweden,18,62.0,15.0
+156,Switzerland,30,46.0167,7.75
+157,Sydney:Australia,4,-33.8833,151.217
+158,Taiwan,44,23.0333,121.283
+159,Taiwan-China,2,32.325,118.762
+160,Tajikistan,10,39.0,71.0
+161,Tanzania,38,-6.0,35.0
+162,Thailand,56,13.75,100.517
+163,Tokelau,12,-9.0,-172.0
+164,Tunisia,97,34.0,9.0
+165,Turkey,140,37.0594,37.3825
+166,UK,9,54.0,-2.0
+167,Ukraine,90,49.0,32.0
+168,United States,624,13.4586,144.787
+169,Urmul:Afghanistan,2,35.4222,71.3264
+170,Uruguay,8,-33.0,-56.0
+171,Uzbekistan,2,41.0,64.0
+172,Valletta:Malta,2,35.8997,14.5147
+173,Vatican,10,41.9,12.45
+174,Venezuela,10,7.68389,-72.3631
+175,Venice:Italy,2,45.4386,12.3267
+176,Villabruna:Italy,4,46.0667,11.9333
+177,Virginia:United States,2,33.4089,-87.0506
+178,Wales,8,54.0,-2.0
+179,Washington:United States,4,33.7739,-93.6825
+180,Wexford:Ireland,4,52.3342,-6.4575
+181,Yemen,69,15.0,48.0
+182,Zimbabwe,8,-20.0,30.0
